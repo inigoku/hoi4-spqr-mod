@@ -1,0 +1,33 @@
+capital = 157 # Abruzzo
+
+oob = "SBN_1936" # Tropas iniciales de los Sabines
+
+set_research_slots = 1
+
+set_technology = {
+    infantry_weapons = 1
+}
+
+set_politics = {
+    ruling_party = neutrality
+    last_election = "1936.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+    neutrality = 100
+    democratic = 0
+    fascism = 0
+    communism = 0
+}
+
+create_country_leader = {
+    name = "Tito Tacio"
+    desc = "SBN_tacio_desc"
+    picture = "gfx/leaders/SBN/Portrait_Tacio.tga"
+    expire = "1965.1.1"
+    ideology = despotism
+    traits = {
+    }
+}

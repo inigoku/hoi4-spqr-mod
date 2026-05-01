@@ -1,0 +1,17 @@
+division_template = {
+        name = "Militia Etrusca"
+        regiments = {
+                infantry = { x = 0 y = 0 }
+                infantry = { x = 0 y = 1 }
+        }
+}
+
+units = {
+        division = {
+                name = "Cohors Etrusca"
+                location = 9907
+                division_template = "Militia Etrusca"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.7
+        }
+}

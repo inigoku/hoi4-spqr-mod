@@ -1,0 +1,19 @@
+state = {
+        id = 106
+        name = "STATE_106"
+        manpower = 1800000
+
+        state_category = town
+
+        history = {
+                owner = MCD
+                victory_points = { 3882 10 }
+                add_core_of = MCD
+        }
+
+        provinces = {
+                907 974 3833 3865 3882 6886
+        }
+
+        local_supplies = 0.0
+}

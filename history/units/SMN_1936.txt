@@ -1,0 +1,17 @@
+division_template = {
+        name = "Militia Samnita"
+        regiments = {
+                infantry = { x = 0 y = 0 }
+                infantry = { x = 0 y = 1 }
+        }
+}
+
+units = {
+        division = {
+                name = "Cohors Samnita"
+                location = 11837
+                division_template = "Militia Samnita"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.7
+        }
+}

@@ -1,0 +1,19 @@
+state = {
+        id = 788
+        name = "STATE_788"
+        manpower = 364601
+
+        state_category = pastoral
+
+        history = {
+                owner = WLD
+                controller = WLD
+                add_core_of = WLD
+        }
+
+        provinces = {
+                794 874 3874 6867 9770 13221
+        }
+
+        local_supplies = 0.0
+}

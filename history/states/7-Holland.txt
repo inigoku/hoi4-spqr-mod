@@ -1,0 +1,19 @@
+state = {
+        id = 7
+        name = "STATE_7"
+        manpower = 4123000
+
+        state_category = metropolis
+
+        history = {
+                owner = WLD
+                controller = WLD
+                add_core_of = WLD
+        }
+
+        provinces = {
+                68 391 3211 3314 9498
+        }
+
+        local_supplies = 0.0
+}

@@ -1,0 +1,19 @@
+state = {
+        id = 1008
+        name = "STATE_1008"
+        manpower = 562330
+
+        state_category = rural
+
+        history = {
+                owner = WLD
+                controller = WLD
+                add_core_of = WLD
+        }
+
+        provinces = {
+                4949 5020 5064 8090 10789
+        }
+
+        local_supplies = 0.000
+}

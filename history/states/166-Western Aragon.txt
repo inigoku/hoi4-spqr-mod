@@ -1,0 +1,19 @@
+state = {
+        id = 166
+        name = "STATE_166"
+        manpower = 668365
+
+        state_category = town
+
+        history = {
+                owner = WLD
+                controller = WLD
+                add_core_of = WLD
+        }
+
+        provinces = {
+                813 948 3816 6878 6901 7213 9812 9840 9842 11737 11838
+        }
+
+        local_supplies = 13.0
+}

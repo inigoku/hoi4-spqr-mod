@@ -1,0 +1,17 @@
+division_template = {
+        name = "Infanteria Tracia"
+        regiments = {
+                infantry = { x = 0 y = 0 }
+                infantry = { x = 0 y = 1 }
+        }
+}
+
+units = {
+        division = {
+                name = "Cohors Tracia"
+                location = 11905
+                division_template = "Infanteria Tracia"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.7
+        }
+}

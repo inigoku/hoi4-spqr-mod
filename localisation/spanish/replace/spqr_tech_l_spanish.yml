@@ -1,0 +1,12 @@
+﻿l_spanish:
+ # Nombres de la Tecnología en el árbol
+ infantry_weapons: "Armamento de la Edad de Hierro"
+ infantry_weapons_desc: "El uso de lanzas pesadas y escudos de madera reforzada nos dará ventaja sobre las tribus bárbaras."
+ infantry_weapons1: "Reformas Militares de la Legión"
+ infantry_weapons1_desc: "Introducción de la formación en manípulos y el uso del Gladius."
+ 
+ # Nombres del Equipamiento en las Fábricas
+ infantry_equipment_0: "Lanzas y Escudos"
+ infantry_equipment_0_short: "Lanzas"
+ infantry_equipment_1: "Gladius y Scutum"
+ infantry_equipment_1_short: "Gladius"

@@ -1,0 +1,19 @@
+state = {
+        id = 282
+        name = "STATE_282"
+        manpower = 15773000
+
+        state_category = megalopolis
+
+        history = {
+                owner = WLD
+                controller = WLD
+                add_core_of = WLD
+        }
+
+        provinces = {
+                993 1097 1113 1182 4000 4100 4184 4188 7016 9998 11908
+        }
+
+        local_supplies = 0.0
+}

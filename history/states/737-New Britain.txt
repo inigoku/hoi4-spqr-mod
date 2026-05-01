@@ -1,0 +1,19 @@
+state = {
+        id = 737
+        name = "STATE_737"
+        manpower = 345640
+
+        state_category = large_island
+
+        history = {
+                owner = WLD
+                controller = WLD
+                add_core_of = WLD
+        }
+
+        provinces = {
+                1286 1301 1329 1361 4304 4332 4352 4421 7251 7324 7339 7352 7412 10166 10206 12222
+        }
+
+        local_supplies = 0.0
+}

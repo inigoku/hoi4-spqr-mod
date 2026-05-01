@@ -1,0 +1,19 @@
+state = {
+        id = 184
+        name = "STATE_184"
+        manpower = 382500
+
+        state_category = rural
+
+        history = {
+                owner = THR
+                victory_points = { 11905 10 }
+                add_core_of = THR
+        }
+
+        provinces = {
+                9791 9930 11774 11905
+        }
+
+        local_supplies = 0.0
+}

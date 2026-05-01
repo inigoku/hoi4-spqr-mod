@@ -1,0 +1,19 @@
+state = {
+        id = 458
+        name = "STATE_458"
+        manpower = 1982940
+
+        state_category = town
+
+        history = {
+                owner = CRG
+                victory_points = { 11969 15 }
+                add_core_of = CRG
+        }
+
+        provinces = {
+                1037 1046 4061 4129 4163 7077 7162 7180 9994 10091 11921 11969
+        }
+
+        local_supplies = 0.0
+}

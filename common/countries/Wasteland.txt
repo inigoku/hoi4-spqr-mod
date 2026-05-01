@@ -1,0 +1,4 @@
+graphical_culture = uncivilized_gfx
+graphical_culture_2d = uncivilized_2d
+
+color = { 90 90 90 }

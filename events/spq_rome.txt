@@ -1,0 +1,16 @@
+add_namespace = spq_events
+
+country_event = {
+	id = spq_events.1
+	title = spq_events.1.t
+	desc = spq_events.1.d
+	picture = GFX_report_event_generic_read_write # Imagen genérica del juego base
+	
+	is_triggered_only = yes
+	
+	# El botón de respuesta
+	option = {
+		name = spq_events.1.a
+		add_political_power = 20
+	}
+}

@@ -1,0 +1,19 @@
+state = {
+        id = 643
+        name = "STATE_643"
+        manpower = 493
+
+        state_category = tiny_island
+
+        history = {
+                owner = WLD
+                controller = WLD
+                add_core_of = WLD
+        }
+
+        provinces = {
+                13054 13055 13056 13057
+        }
+
+        local_supplies = 0.0
+}

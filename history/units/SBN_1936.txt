@@ -1,0 +1,19 @@
+division_template = {
+        name = "Centuria Sabina"
+        regiments = {
+                infantry = { x = 0 y = 0 }
+                infantry = { x = 0 y = 1 }
+                infantry = { x = 1 y = 0 }
+                infantry = { x = 1 y = 1 }
+        }
+}
+
+units = {
+        division = {
+                name = "Centuria I Sabina"
+                location = 925 # Provincia en Abruzzo
+                division_template = "Centuria Sabina"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.6
+        }
+}

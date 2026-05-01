@@ -1,0 +1,4 @@
+graphical_culture = arabic_gfx
+graphical_culture_2d = arabic_2d
+
+color = { 160 80 40 }

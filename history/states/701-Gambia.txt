@@ -1,0 +1,19 @@
+state = {
+        id = 701
+        name = "STATE_701"
+        manpower = 199520
+
+        state_category = enclave
+
+        history = {
+                owner = WLD
+                controller = WLD
+                add_core_of = WLD
+        }
+
+        provinces = {
+                4989 13213
+        }
+
+        local_supplies = 0.0
+}

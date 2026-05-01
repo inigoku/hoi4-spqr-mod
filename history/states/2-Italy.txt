@@ -1,0 +1,24 @@
+state = {
+	id = 2
+	name = "STATE_2" # Latium
+	manpower = 50000
+	
+	state_category = metropolis
+
+	history = {
+		owner = SPQ
+		victory_points = { 9904 40 } #Rome
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = SPQ
+	}
+
+	provinces = {
+		923 6862 9794 9904 11751 11846 11882
+ 	}
+
+	local_supplies = 0.0 
+}
