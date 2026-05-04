@@ -1,0 +1,221 @@
+focus_tree = {
+    id = SPQ_roman_focus_tree
+
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = SPQ
+        }
+    }
+
+    default = no
+
+    focus = {
+        id = SPQ_fundacion_de_roma
+        icon = GFX_goal_continuous_def_against_influence
+        x = 8
+        y = 0
+        cost = 10
+        completion_reward = {
+            add_political_power = 120
+            add_stability = 0.05
+        }
+    }
+
+    focus = {
+        id = SPQ_legiones_de_roma
+        icon = GFX_goal_continuous_armor_production
+        prerequisite = { focus = SPQ_fundacion_de_roma }
+        x = 6
+        y = 1
+        cost = 10
+        completion_reward = {
+            army_experience = 20
+            add_command_power = 25
+        }
+    }
+
+    focus = {
+        id = SPQ_rapto_de_las_sabinas
+        icon = GFX_goal_continuous_def_against_influence
+        prerequisite = { focus = SPQ_fundacion_de_roma }
+        x = 8
+        y = 1
+        cost = 10
+        completion_reward = {
+            add_stability = 0.05
+            add_manpower = 20000
+        }
+    }
+
+    focus = {
+        id = SPQ_classis_romana
+        icon = GFX_goal_continuous_def_against_influence
+        prerequisite = { focus = SPQ_fundacion_de_roma }
+        x = 10
+        y = 1
+        cost = 10
+        completion_reward = {
+            navy_experience = 20
+        }
+    }
+
+    focus = {
+        id = SPQ_casus_belli_messana
+        icon = GFX_goal_continuous_def_against_influence
+        prerequisite = { focus = SPQ_rapto_de_las_sabinas }
+        x = 8
+        y = 2
+        cost = 10
+        completion_reward = {
+            country_event = { id = spqr_punic.1 days = 1 }
+            if = {
+                limit = { CRG = { exists = yes } }
+                CRG = { country_event = { id = spqr_punic.2 days = 1 } }
+            }
+        }
+    }
+
+    focus = {
+        id = SPQ_desembarco_en_sicilia
+        icon = GFX_goal_continuous_armor_production
+        prerequisite = { focus = SPQ_casus_belli_messana }
+        x = 7
+        y = 3
+        cost = 10
+        completion_reward = {
+            add_war_support = 0.07
+            army_experience = 15
+        }
+    }
+
+    focus = {
+        id = SPQ_bloqueo_de_lilibea
+        icon = GFX_goal_continuous_def_against_influence
+        prerequisite = { focus = SPQ_classis_romana }
+        x = 10
+        y = 3
+        cost = 10
+        completion_reward = {
+            navy_experience = 20
+            add_war_support = 0.05
+        }
+    }
+
+    focus = {
+        id = SPQ_astilleros_de_ostia
+        icon = GFX_goal_generic_construct_naval_dockyard
+        prerequisite = { focus = SPQ_classis_romana }
+        x = 11
+        y = 2
+        cost = 10
+        completion_reward = {
+            navy_experience = 15
+            add_political_power = 40
+        }
+    }
+
+    focus = {
+        id = SPQ_doctrina_del_corvus
+        icon = GFX_goal_continuous_naval_production
+        prerequisite = { focus = SPQ_astilleros_de_ostia }
+        x = 11
+        y = 3
+        cost = 10
+        completion_reward = {
+            navy_experience = 25
+            add_war_support = 0.03
+        }
+    }
+
+    focus = {
+        id = SPQ_programa_de_quinquerremes
+        icon = GFX_goal_continuous_naval_production
+        prerequisite = {
+            focus = SPQ_doctrina_del_corvus
+            focus = SPQ_bloqueo_de_lilibea
+        }
+        x = 11
+        y = 4
+        cost = 10
+        completion_reward = {
+            navy_experience = 30
+            add_war_support = 0.05
+            add_stability = 0.02
+        }
+    }
+
+    focus = {
+        id = SPQ_financiacion_extraordinaria
+        icon = GFX_goal_continuous_def_against_influence
+        prerequisite = {
+            focus = SPQ_desembarco_en_sicilia
+            focus = SPQ_bloqueo_de_lilibea
+        }
+        x = 8
+        y = 4
+        cost = 10
+        completion_reward = {
+            add_political_power = 100
+            add_stability = -0.03
+        }
+    }
+
+    focus = {
+        id = SPQ_paz_de_lutacio
+        icon = GFX_goal_continuous_def_against_influence
+        prerequisite = { focus = SPQ_financiacion_extraordinaria }
+        x = 8
+        y = 5
+        cost = 10
+        available = {
+            has_full_control_of_state = 115
+        }
+        completion_reward = {
+            add_stability = 0.08
+            add_political_power = 75
+            country_event = { id = spqr_punic.5 days = 1 }
+        }
+    }
+
+    focus = {
+        id = SPQ_reformas_postguerra
+        icon = GFX_goal_continuous_armor_production
+        prerequisite = { focus = SPQ_paz_de_lutacio }
+        x = 6
+        y = 6
+        cost = 10
+        completion_reward = {
+            add_stability = 0.05
+            add_war_support = 0.05
+        }
+    }
+
+    focus = {
+        id = SPQ_mirada_hispania
+        icon = GFX_goal_continuous_def_against_influence
+        prerequisite = { focus = SPQ_paz_de_lutacio }
+        x = 8
+        y = 6
+        cost = 10
+        completion_reward = {
+            add_political_power = 60
+            add_war_support = 0.05
+        }
+    }
+
+    focus = {
+        id = SPQ_preparar_choque_con_barcidas
+        icon = GFX_goal_continuous_armor_production
+        prerequisite = { focus = SPQ_mirada_hispania }
+        x = 8
+        y = 7
+        cost = 10
+        completion_reward = {
+            army_experience = 20
+            navy_experience = 10
+            country_event = { id = spqr_punic.6 days = 1 }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+spqr_update_slave_labor_tier_effect = {
+	# Ensure value remains bounded.
+	if = {
+		limit = { check_variable = { spqr_slave_labor_pool > 120 } }
+		set_variable = { spqr_slave_labor_pool = 120 }
+	}
+
+	remove_ideas = spqr_slave_labor_1
+	remove_ideas = spqr_slave_labor_2
+	remove_ideas = spqr_slave_labor_3
+	remove_ideas = spqr_slave_labor_4
+	remove_ideas = spqr_slave_labor_5
+
+	if = {
+		limit = { check_variable = { spqr_slave_labor_pool > 99 } }
+		add_ideas = spqr_slave_labor_5
+	}
+	else_if = {
+		limit = { check_variable = { spqr_slave_labor_pool > 69 } }
+		add_ideas = spqr_slave_labor_4
+	}
+	else_if = {
+		limit = { check_variable = { spqr_slave_labor_pool > 44 } }
+		add_ideas = spqr_slave_labor_3
+	}
+	else_if = {
+		limit = { check_variable = { spqr_slave_labor_pool > 24 } }
+		add_ideas = spqr_slave_labor_2
+	}
+	else_if = {
+		limit = { check_variable = { spqr_slave_labor_pool > 9 } }
+		add_ideas = spqr_slave_labor_1
+	}
+}

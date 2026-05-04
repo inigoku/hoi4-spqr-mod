@@ -2,16 +2,24 @@ division_template = {
         name = "Militia Etrusca"
         regiments = {
                 infantry = { x = 0 y = 0 }
+                infantry = { x = 1 y = 0 }
                 infantry = { x = 0 y = 1 }
         }
 }
 
 units = {
         division = {
-                name = "Cohors Etrusca"
-                location = 9907
+                name = "Jinete Numida I"
+                location = 10078
                 division_template = "Militia Etrusca"
                 start_experience_factor = 0.1
                 start_equipment_factor = 0.7
+        }
+        division = {
+                name = "Jinete Numida II"
+                location = 11953
+                division_template = "Militia Etrusca"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.65
         }
 }

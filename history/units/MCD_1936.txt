@@ -4,6 +4,7 @@ division_template = {
                 infantry = { x = 0 y = 0 }
                 infantry = { x = 0 y = 1 }
                 infantry = { x = 1 y = 0 }
+                infantry = { x = 1 y = 1 }
         }
 }
 
@@ -14,5 +15,19 @@ units = {
                 division_template = "Falange Macedonica"
                 start_experience_factor = 0.2
                 start_equipment_factor = 0.8
+        }
+        division = {
+                name = "Hipaspistas"
+                location = 3882
+                division_template = "Falange Macedonica"
+                start_experience_factor = 0.15
+                start_equipment_factor = 0.75
+        }
+        division = {
+                name = "Falange de Tesalia"
+                location = 3882
+                division_template = "Falange Macedonica"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.7
         }
 }

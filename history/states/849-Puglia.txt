@@ -5,10 +5,16 @@ state = {
 
         state_category = city
 
+                resources = {
+                        steel = 4
+                }
+
         history = {
-                owner = SMN
+                                owner = SMN
+                                controller = SMN
                 victory_points = { 11837 10 }
-                add_core_of = SMN
+                                add_core_of = SMN
+                                add_core_of = SPQ
         }
 
         provinces = {

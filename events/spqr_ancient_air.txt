@@ -1,0 +1,16 @@
+add_namespace = spqr_air
+
+country_event = {
+	id = spqr_air.1
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_idea = spqr_ancient_no_flight }
+			}
+			add_ideas = spqr_ancient_no_flight
+		}
+	}
+}

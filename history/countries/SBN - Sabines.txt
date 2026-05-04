@@ -1,4 +1,4 @@
-capital = 157 # Abruzzo
+capital = 185 # Epirus
 
 oob = "SBN_1936" # Tropas iniciales de los Sabines
 
@@ -23,11 +23,30 @@ set_popularities = {
 }
 
 create_country_leader = {
-    name = "Tito Tacio"
+    name = "Alexander II of Epirus"
     desc = "SBN_tacio_desc"
-    picture = "gfx/leaders/SBN/Portrait_Tacio.tga"
+    picture = "gfx/leaders/SBN/Portrait_Alexander_II.tga"
     expire = "1965.1.1"
     ideology = despotism
-    traits = {
-    }
+}
+create_field_marshal = {
+    name = "SBN_fm_name"
+    picture = "gfx/leaders/SBN/Portrait_Alexander_II.tga"
+    skill = 3
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+    traits = { infantry_officer }
+}
+
+create_corps_commander = {
+    name = "SBN_gen_name"
+    picture = "gfx/leaders/SBN/Portrait_Alexander_II.tga"
+    skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+    traits = { infantry_officer }
 }

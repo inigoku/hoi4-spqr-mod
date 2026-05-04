@@ -3,12 +3,35 @@ division_template = {
         regiments = {
                 infantry = { x = 0 y = 0 }
                 infantry = { x = 0 y = 1 }
+                infantry = { x = 1 y = 0 }
+                infantry = { x = 1 y = 1 }
         }
 }
 
 units = {
         division = {
                 name = "Cohors Asiria"
+                location = 10515
+                division_template = "Infanteria Asiria"
+                start_experience_factor = 0.15
+                start_equipment_factor = 0.7
+        }
+        division = {
+                name = "Cohors de Siria"
+                location = 4550
+                division_template = "Infanteria Asiria"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.7
+        }
+        division = {
+                name = "Cohors de Anatolia"
+                location = 7671
+                division_template = "Infanteria Asiria"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.65
+        }
+        division = {
+                name = "Cohors de Mesopotamia"
                 location = 10515
                 division_template = "Infanteria Asiria"
                 start_experience_factor = 0.1

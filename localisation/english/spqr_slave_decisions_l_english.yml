@@ -1,0 +1,21 @@
+﻿l_english:
+ spqr_slave_labor_category: "Captive Labor System"
+ spqr_slave_labor_category_desc: "Current slave reserve: [?ROOT.spqr_slave_labor_pool|0]\n\nVictories in war capture labor that can be redirected into workshops, dockyards, and quarries."
+
+ spqr_slave_labor_workshop_drive: "Force Urban Workshops"
+ spqr_slave_labor_workshop_drive_desc: "Spend part of the slave reserve to temporarily boost workshop and arsenal output."
+
+ spqr_slave_labor_dockyard_drive: "Reinforce Dockyards"
+ spqr_slave_labor_dockyard_drive_desc: "Reassign captive labor to shipyards to accelerate naval construction for several months."
+
+ spqr_slave_labor_quarries: "Expand Quarries and Mines"
+ spqr_slave_labor_quarries_desc: "Redirect captives to quarries and extraction sites to increase strategic resource flow."
+
+ spqr_slave_labor_workshop_burst: "Forced Workshops"
+ spqr_slave_labor_workshop_burst_desc: "Civil and military workshops run at increased pace through captive labor shifts."
+
+ spqr_slave_labor_dockyard_burst: "Forced Dockyards"
+ spqr_slave_labor_dockyard_burst_desc: "Dockyards temporarily increase throughput through intensive captive labor deployment."
+
+ spqr_slave_labor_quarry_burst: "Exploited Quarries"
+ spqr_slave_labor_quarry_burst_desc: "Intensive quarry and vein extraction temporarily increases resource availability."

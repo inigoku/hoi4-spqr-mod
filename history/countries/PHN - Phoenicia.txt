@@ -1,4 +1,4 @@
-capital = 553
+capital = 461
 oob = "PHN_1936"
 
 set_research_slots = 1
@@ -19,11 +19,30 @@ set_popularities = {
 }
 
 create_country_leader = {
-    name = "Ahiram"
+    name = "Baga"
     desc = "PHN_leader_desc"
-    picture = "gfx/leaders/PHN/Portrait_Ahiram.tga"
+    picture = "gfx/leaders/PHN/Portrait_Baga.tga"
     expire = "1965.1.1"
     ideology = despotism
-    traits = {
-    }
+}
+create_field_marshal = {
+    name = "PHN_fm_name"
+    picture = "gfx/leaders/PHN/Portrait_Baga.tga"
+    skill = 3
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+    traits = { infantry_officer }
+}
+
+create_corps_commander = {
+    name = "PHN_gen_name"
+    picture = "gfx/leaders/PHN/Portrait_Baga.tga"
+    skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+    traits = { infantry_officer }
 }

@@ -15,4 +15,11 @@ units = {
                 start_experience_factor = 0.2
                 start_equipment_factor = 0.8
         }
+        division = {
+                name = "Mora de Laconia"
+                location = 7211
+                division_template = "Hoplitas Espartanos"
+                start_experience_factor = 0.15
+                start_equipment_factor = 0.75
+        }
 }

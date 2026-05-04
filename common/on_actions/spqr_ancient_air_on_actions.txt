@@ -1,0 +1,12 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = {
+					NOT = { tag = WLD }
+				}
+				country_event = spqr_air.1
+			}
+		}
+	}
+}

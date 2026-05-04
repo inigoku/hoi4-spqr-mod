@@ -3,12 +3,20 @@ division_template = {
         regiments = {
                 infantry = { x = 0 y = 0 }
                 infantry = { x = 0 y = 1 }
+                infantry = { x = 1 y = 0 }
         }
 }
 
 units = {
         division = {
                 name = "Cohors Tracia"
+                location = 11905
+                division_template = "Infanteria Tracia"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.7
+        }
+        division = {
+                name = "Guardia del Hebro"
                 location = 11905
                 division_template = "Infanteria Tracia"
                 start_experience_factor = 0.1

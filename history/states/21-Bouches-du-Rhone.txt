@@ -5,10 +5,14 @@ state = {
 
         state_category = city
 
+                resources = {
+                        steel = 6
+                }
+
         history = {
-                owner = WLD
-                controller = WLD
-                add_core_of = WLD
+                owner = GLN
+                controller = GLN
+                add_core_of = GLN
         }
 
         provinces = {

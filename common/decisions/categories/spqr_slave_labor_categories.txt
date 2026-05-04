@@ -1,0 +1,6 @@
+spqr_slave_labor_category = {
+	icon = generic_political_actions
+	priority = {
+		base = 100
+	}
+}

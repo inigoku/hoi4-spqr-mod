@@ -3,12 +3,20 @@ division_template = {
         regiments = {
                 infantry = { x = 0 y = 0 }
                 infantry = { x = 0 y = 1 }
+                infantry = { x = 1 y = 0 }
         }
 }
 
 units = {
         division = {
                 name = "Cohors Iliria"
+                location = 6889
+                division_template = "Infanteria Iliria"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.7
+        }
+        division = {
+                name = "Cohors Adriatica"
                 location = 6889
                 division_template = "Infanteria Iliria"
                 start_experience_factor = 0.1

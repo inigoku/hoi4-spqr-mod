@@ -5,9 +5,21 @@ state = {
 
         state_category = town
 
+                resources = {
+                        steel = 10
+                        chromium = 4
+                }
+
         history = {
                 owner = KMT
                 victory_points = { 7011 20 }
+                buildings = {
+                        infrastructure = 4
+                        industrial_complex = 2
+                        12004 = {
+                                naval_base = 3
+                        }
+                }
                 add_core_of = KMT
         }
 

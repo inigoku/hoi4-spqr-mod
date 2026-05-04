@@ -1,0 +1,37 @@
+﻿l_english:
+ spq_events.1.t:0 "The Consualia Games Succeed"
+ spq_events.1.d:0 "As planned, neighboring tribes came to Rome for the games. At a prearranged signal, Roman forces seized the young women while the Sabine men fled. This secures Rome's demographic future, but war is now unavoidable."
+ spq_events.1.a:0 "Rome asks no forgiveness. Let them come."
+
+ SPQ_astilleros_de_ostia:0 "Dockyards of Ostia"
+ SPQ_astilleros_de_ostia_desc:0 "The Republic needs a stable naval program. We will expand coastal yards to sustain a permanent fleet."
+ SPQ_doctrina_del_corvus:0 "Corvus Doctrine"
+ SPQ_doctrina_del_corvus_desc:0 "Rome cannot match Punic seamanship by numbers alone. Boarding drills, discipline, and squadron coordination will be standardized."
+ SPQ_programa_de_quinquerremes:0 "Quinquereme Program"
+ SPQ_programa_de_quinquerremes_desc:0 "With doctrine and dockyards in place, the Republic can launch a major series of warships to dominate the Tyrrhenian and Sicily."
+ SPQ_corvus_bonus:0 "Corvus Naval Program"
+
+ CRG_arsenales_del_cothon:0 "Cothon Arsenals"
+ CRG_arsenales_del_cothon_desc:0 "Carthage's military harbor must work at full pace to sustain the Sicilian war and protect western lanes."
+ CRG_tacticas_de_espolon:0 "Ramming Tactics"
+ CRG_tacticas_de_espolon_desc:0 "Maneuver and impact can decide naval battles before boarding even begins."
+
+ KMT_astilleros_del_delta:0 "Delta Dockyards"
+ KMT_astilleros_del_delta_desc:0 "The Nile Delta must become a naval construction center able to sustain permanent squadrons."
+ KMT_escuadra_de_chipre:0 "Cyprus Squadron"
+ KMT_escuadra_de_chipre_desc:0 "Securing Cyprus and its sea routes strengthens our leverage in the Levant."
+
+ MCD_hegemonia_naval_egea:0 "Aegean Naval Hegemony"
+ MCD_hegemonia_naval_egea_desc:0 "Antigonid influence over islands and straits demands a fleet that is present, fast, and disciplined."
+ MCD_talarassocracia_antigonida:0 "Antigonid Thalassocracy"
+ MCD_talarassocracia_antigonida_desc:0 "With reinforced ports and seasoned captains, Macedon can aspire to set the rules of the Aegean sea."
+
+ MIN_pactos_portuarios:0 "Harbor Pacts"
+ MIN_pactos_portuarios_desc:0 "Even lesser kingdoms can endure by securing ports, maritime tolls, and supply agreements."
+ MIN_capitanes_mercantes:0 "Merchant Captains"
+ MIN_capitanes_mercantes_desc:0 "Training navigators and convoy escorts improves resilience against blockades and piracy."
+
+ SYC_astilleros_de_ortigia:0 "Ortygia Dockyards"
+ SYC_astilleros_de_ortigia_desc:0 "Syracuse's naval workshops must increase output to keep a fleet able to deter both Rome and Carthage."
+ SYC_liga_de_capitanes:0 "Captains' League"
+ SYC_liga_de_capitanes_desc:0 "A loyal network of experienced captains gives Syracuse tactical edge in the central sea."

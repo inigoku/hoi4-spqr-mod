@@ -5,10 +5,14 @@ state = {
 
         state_category = rural
 
+                resources = {
+                        steel = 4
+                }
+
         history = {
-                owner = WLD
-                controller = WLD
-                add_core_of = WLD
+                owner = PHN
+                controller = PHN
+                add_core_of = PHN
         }
 
         provinces = {

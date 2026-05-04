@@ -5,10 +5,24 @@ state = {
 
         state_category = town
 
+                resources = {
+                        steel = 6
+                }
+
         history = {
                 owner = SYC
                 victory_points = { 10074 15 }
+                buildings = {
+                        infrastructure = 3
+                        industrial_complex = 1
+                        dockyard = 1
+                        10074 = {
+                                naval_base = 2
+                        }
+                }
                 add_core_of = SYC
+                add_core_of = SPQ
+                add_core_of = CRG
         }
 
         provinces = {

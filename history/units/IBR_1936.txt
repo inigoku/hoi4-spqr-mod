@@ -4,6 +4,7 @@ division_template = {
                 infantry = { x = 0 y = 0 }
                 infantry = { x = 0 y = 1 }
                 infantry = { x = 1 y = 0 }
+                infantry = { x = 1 y = 1 }
         }
 }
 
@@ -14,5 +15,19 @@ units = {
                 division_template = "Infanteria Ibera"
                 start_experience_factor = 0.1
                 start_equipment_factor = 0.7
+        }
+        division = {
+                name = "Cohorte de Levante"
+                location = 9889
+                division_template = "Infanteria Ibera"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.7
+        }
+        division = {
+                name = "Cohorte del Norte"
+                location = 9703
+                division_template = "Infanteria Ibera"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.65
         }
 }

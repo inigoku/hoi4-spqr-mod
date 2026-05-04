@@ -6,9 +6,9 @@ state = {
         state_category = wasteland
 
         history = {
-                owner = WLD
-                controller = WLD
-                add_core_of = WLD
+                owner = KMT
+                controller = KMT
+                add_core_of = KMT
         }
 
         provinces = {

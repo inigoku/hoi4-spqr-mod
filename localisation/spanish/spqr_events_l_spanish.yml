@@ -2,3 +2,54 @@
  spq_events.1.t: "El éxito de los Juegos Consualia"
  spq_events.1.d: "Tal y como Rómulo había planeado, las tribus vecinas acudieron en masa a Roma para disfrutar de los juegos en honor a la deidad. A una señal preacordada, los romanos desenvainaron sus armas y tomaron a las mujeres jóvenes, obligando a los hombres sabinos a huir despavoridos.\n\nAunque esto asegura el futuro demográfico de nuestra ciudad, la indignación de nuestros vecinos es total. La guerra es ahora inevitable."
  spq_events.1.a: "Roma no pide perdón. ¡Que vengan!"
+
+ spqr_punic.1.t: "La Cuestion de Mesana"
+ spqr_punic.1.d: "Los mamertinos de Mesana piden apoyo frente a la presion púnica y siracusana. Intervenir podria encender una guerra mayor."
+ spqr_punic.1.a: "Intervendremos en Sicilia"
+ spqr_punic.1.b: "Aun no es el momento"
+
+ spqr_punic.2.t: "Roma Se Mueve en Mesana"
+ spqr_punic.2.d: "La Republica romana ha decidido intervenir en Mesana. Nuestra posicion en Sicilia queda desafiada."
+ spqr_punic.2.a: "Cartago respondera"
+
+ spqr_punic.3.t: "Defender la Hegemonia Punica"
+ spqr_punic.3.d: "Debemos sostener nuestras posiciones en Sicilia y evitar que Roma domine el estrecho."
+ spqr_punic.3.a: "Movilizad flota y guarniciones"
+
+ spqr_punic.4.t: "Cartago Refuerza Sicilia"
+ spqr_punic.4.d: "Los cartagineses concentran fuerzas en la isla. La guerra prolongada parece inevitable."
+ spqr_punic.4.a: "Habra que resistir"
+
+ spqr_punic.5.t: "La Paz de Lutacio"
+ spqr_punic.5.d: "Tras anos de desgaste, Roma impone condiciones y Sicilia cambia el equilibrio del Mediterraneo central."
+ spqr_punic.5.a: "La Republica sale reforzada"
+
+ spqr_punic.6.t: "Rumores de una Nueva Guerra"
+ spqr_punic.6.d: "La expansion barcida en Hispania y la rivalidad naval avivan el temor a un nuevo choque total."
+ spqr_punic.6.a: "Preparad la Republica"
+
+ spqr_punic.7.t: "El Juramento Barcida"
+ spqr_punic.7.d: "En los circulos militares cartagineses crece una voluntad de revancha frente a Roma."
+ spqr_punic.7.a: "La lucha continuara"
+
+ spqr_punic.8.t: "Tension en Celesiria"
+ spqr_punic.8.d: "Egipto considera oportuno reforzar su posicion en Siria mientras Occidente se consume en guerras púnicas."
+ spqr_punic.8.a: "Moveremos nuestras piezas"
+
+ spqr_punic.9.t: "La Diplomacia Ptolemaica"
+ spqr_punic.9.d: "Alejandria debate si mantener neutralidad activa o tomar partido en el pulso romano-cartagines."
+ spqr_punic.9.a: "Neutralidad rentable"
+ spqr_punic.9.b: "Preparacion encubierta"
+
+ spqr_punic.10.t: "Macedonia y el Equilibrio Occidental"
+ spqr_punic.10.d: "La corte antigonida sopesa arbitrar, mediar o explotar la rivalidad entre Roma y Cartago."
+ spqr_punic.10.a: "Seremos arbitros armados"
+
+ spqr_punic.11.t: "El Dilema de Siracusa"
+ spqr_punic.11.d: "La ciudad no puede enfrentarse sola a ambas potencias. Habra que escoger con cautela."
+ spqr_punic.11.a: "Acercarnos a Roma"
+ spqr_punic.11.b: "Entenderse con Cartago"
+
+ spqr_punic.12.t: "Supervivencia de las Potencias Menores"
+ spqr_punic.12.d: "Entre hegemonias rivales, los reinos menores solo sobreviviran mediante pragmatismo politico y militar."
+ spqr_punic.12.a: "Resistiremos"

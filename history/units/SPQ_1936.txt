@@ -15,14 +15,28 @@ units = {
 		name = "Legio I"
 		location = 9904 # Provincia de Roma
 		division_template = "Legio Romana"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.25
 		start_equipment_factor = 0.8
 	}
     division = {
 		name = "Legio II"
 		location = 9904
 		division_template = "Legio Romana"
-		start_experience_factor = 0.1
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Legio III"
+		location = 9904
+		division_template = "Legio Romana"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Legio IV"
+		location = 9904
+		division_template = "Legio Romana"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
 	}
 }

@@ -6,9 +6,9 @@ state = {
         state_category = town
 
         history = {
-                owner = WLD
-                controller = WLD
-                add_core_of = WLD
+                                owner = SPQ
+                                controller = SPQ
+                                add_core_of = SPQ
         }
 
         provinces = {

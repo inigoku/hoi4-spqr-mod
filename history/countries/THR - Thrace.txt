@@ -19,11 +19,30 @@ set_popularities = {
 }
 
 create_country_leader = {
-    name = "Teres"
+    name = "Cotys"
     desc = "THR_leader_desc"
     picture = "gfx/leaders/THR/Portrait_Teres.tga"
     expire = "1965.1.1"
     ideology = despotism
-    traits = {
-    }
+}
+create_field_marshal = {
+    name = "THR_fm_name"
+    picture = "gfx/leaders/THR/Portrait_Teres.tga"
+    skill = 3
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+    traits = { infantry_officer }
+}
+
+create_corps_commander = {
+    name = "THR_gen_name"
+    picture = "gfx/leaders/THR/Portrait_Teres.tga"
+    skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+    traits = { infantry_officer }
 }

@@ -6,9 +6,13 @@ state = {
         state_category = town
 
         history = {
-                owner = WLD
-                controller = WLD
-                add_core_of = WLD
+                owner = CRG
+                controller = CRG
+                buildings = {
+                                infrastructure = 2
+                                industrial_complex = 1
+                }
+                add_core_of = CRG
         }
 
         provinces = {

@@ -1,0 +1,140 @@
+focus_tree = {
+    id = MIN_minor_focus_tree
+
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = GRC
+        }
+        modifier = {
+            add = 10
+            tag = LAC
+        }
+        modifier = {
+            add = 10
+            tag = THR
+        }
+        modifier = {
+            add = 10
+            tag = ILL
+        }
+        modifier = {
+            add = 10
+            tag = SBN
+        }
+        modifier = {
+            add = 10
+            tag = SMN
+        }
+        modifier = {
+            add = 10
+            tag = ETR
+        }
+        modifier = {
+            add = 10
+            tag = PHN
+        }
+        modifier = {
+            add = 10
+            tag = IBR
+        }
+        modifier = {
+            add = 10
+            tag = GLN
+        }
+        modifier = {
+            add = 10
+            tag = LYD
+        }
+        modifier = {
+            add = 10
+            tag = ASS
+        }
+    }
+
+    default = no
+
+    focus = {
+        id = MIN_consolidar_tribus
+        icon = GFX_goal_continuous_def_against_influence
+        x = 8
+        y = 0
+        cost = 10
+        completion_reward = {
+            add_stability = 0.05
+            add_political_power = 60
+        }
+    }
+
+    focus = {
+        id = MIN_guardias_ciudadanas
+        icon = GFX_goal_continuous_armor_production
+        prerequisite = { focus = MIN_consolidar_tribus }
+        x = 6
+        y = 1
+        cost = 10
+        completion_reward = {
+            add_manpower = 8000
+            army_experience = 10
+        }
+    }
+
+    focus = {
+        id = MIN_reformas_fiscales
+        icon = GFX_goal_continuous_def_against_influence
+        prerequisite = { focus = MIN_consolidar_tribus }
+        x = 8
+        y = 1
+        cost = 10
+        completion_reward = {
+            add_stability = 0.04
+            add_political_power = 50
+        }
+    }
+
+    focus = {
+        id = MIN_pactos_portuarios
+        icon = GFX_goal_generic_construct_naval_dockyard
+        prerequisite = { focus = MIN_reformas_fiscales }
+        x = 9
+        y = 2
+        cost = 10
+        completion_reward = {
+            navy_experience = 8
+            add_political_power = 25
+        }
+    }
+
+    focus = {
+        id = MIN_capitanes_mercantes
+        icon = GFX_goal_continuous_naval_production
+        prerequisite = { focus = MIN_pactos_portuarios }
+        x = 9
+        y = 3
+        cost = 10
+        completion_reward = {
+            navy_experience = 12
+            add_stability = 0.01
+            add_war_support = 0.01
+        }
+    }
+
+    focus = {
+        id = MIN_diplomacia_de_supervivencia
+        icon = GFX_goal_continuous_def_against_influence
+        prerequisite = {
+            focus = MIN_guardias_ciudadanas
+            focus = MIN_reformas_fiscales
+            focus = MIN_capitanes_mercantes
+        }
+        x = 7
+        y = 2
+        cost = 10
+        completion_reward = {
+            add_stability = 0.03
+            add_war_support = 0.03
+            country_event = { id = spqr_punic.12 days = 1 }
+        }
+    }
+}

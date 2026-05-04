@@ -1,0 +1,124 @@
+focus_tree = {
+    id = MCD_macedon_focus_tree
+
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = MCD
+        }
+    }
+
+    default = no
+
+    focus = {
+        id = MCD_legado_antigonida
+        icon = GFX_goal_continuous_def_against_influence
+        x = 8
+        y = 0
+        cost = 10
+        completion_reward = {
+            add_political_power = 90
+            add_stability = 0.05
+        }
+    }
+
+    focus = {
+        id = MCD_liga_corintia
+        icon = GFX_goal_continuous_def_against_influence
+        prerequisite = { focus = MCD_legado_antigonida }
+        x = 6
+        y = 1
+        cost = 10
+        completion_reward = {
+            add_stability = 0.05
+            add_political_power = 60
+        }
+    }
+
+    focus = {
+        id = MCD_reclutar_hetairoi
+        icon = GFX_goal_continuous_armor_production
+        prerequisite = { focus = MCD_legado_antigonida }
+        x = 8
+        y = 1
+        cost = 10
+        completion_reward = {
+            army_experience = 20
+            add_command_power = 20
+        }
+    }
+
+    focus = {
+        id = MCD_astilleros_de_pella
+        icon = GFX_goal_continuous_def_against_influence
+        prerequisite = { focus = MCD_liga_corintia }
+        x = 6
+        y = 2
+        cost = 10
+        completion_reward = {
+            navy_experience = 12
+            add_war_support = 0.02
+        }
+    }
+
+    focus = {
+        id = MCD_hegemonia_naval_egea
+        icon = GFX_goal_continuous_naval_production
+        prerequisite = { focus = MCD_astilleros_de_pella }
+        x = 6
+        y = 3
+        cost = 10
+        completion_reward = {
+            navy_experience = 18
+            add_political_power = 35
+        }
+    }
+
+    focus = {
+        id = MCD_talarassocracia_antigonida
+        icon = GFX_goal_generic_construct_naval_dockyard
+        prerequisite = {
+            focus = MCD_hegemonia_naval_egea
+            focus = MCD_ambiciones_en_el_egeo
+        }
+        x = 6
+        y = 4
+        cost = 10
+        completion_reward = {
+            navy_experience = 22
+            add_war_support = 0.03
+            add_stability = 0.02
+        }
+    }
+
+    focus = {
+        id = MCD_ambiciones_en_el_egeo
+        icon = GFX_goal_continuous_def_against_influence
+        prerequisite = { focus = MCD_reclutar_hetairoi }
+        x = 8
+        y = 2
+        cost = 10
+        completion_reward = {
+            add_war_support = 0.05
+            army_experience = 10
+        }
+    }
+
+    focus = {
+        id = MCD_arbitrar_conflicto_punico
+        icon = GFX_goal_continuous_def_against_influence
+        prerequisite = {
+            focus = MCD_astilleros_de_pella
+            focus = MCD_ambiciones_en_el_egeo
+        }
+        x = 7
+        y = 3
+        cost = 10
+        completion_reward = {
+            add_political_power = 70
+            add_stability = 0.04
+            country_event = { id = spqr_punic.10 days = 1 }
+        }
+    }
+}

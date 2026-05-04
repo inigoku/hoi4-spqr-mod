@@ -4,12 +4,34 @@ division_template = {
                 infantry = { x = 0 y = 0 }
                 infantry = { x = 0 y = 1 }
                 infantry = { x = 1 y = 0 }
+                infantry = { x = 1 y = 1 }
         }
 }
 
 units = {
         division = {
                 name = "Guardia del Nilo"
+                location = 7011
+                division_template = "Infanteria Egipcia"
+                start_experience_factor = 0.2
+                start_equipment_factor = 0.7
+        }
+        division = {
+                name = "Guarnicion de Menfis"
+                location = 7011
+                division_template = "Infanteria Egipcia"
+                start_experience_factor = 0.15
+                start_equipment_factor = 0.75
+        }
+        division = {
+                name = "Cohors de Cirenaica"
+                location = 10123
+                division_template = "Infanteria Egipcia"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.65
+        }
+        division = {
+                name = "Guarnicion de Pelusio"
                 location = 7011
                 division_template = "Infanteria Egipcia"
                 start_experience_factor = 0.1

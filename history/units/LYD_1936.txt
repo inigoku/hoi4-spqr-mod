@@ -3,6 +3,7 @@ division_template = {
         regiments = {
                 infantry = { x = 0 y = 0 }
                 infantry = { x = 0 y = 1 }
+                infantry = { x = 1 y = 0 }
         }
 }
 
@@ -13,5 +14,12 @@ units = {
                 division_template = "Infanteria Lidia"
                 start_experience_factor = 0.1
                 start_equipment_factor = 0.7
+        }
+        division = {
+                name = "Cohors de Antalya"
+                location = 1005
+                division_template = "Infanteria Lidia"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.65
         }
 }

@@ -12,6 +12,13 @@ units = {
                 name = "Tagma Heleno"
                 location = 4109
                 division_template = "Hoplitas Helenos"
+                start_experience_factor = 0.15
+                start_equipment_factor = 0.7
+        }
+        division = {
+                name = "Tagma de Atenas"
+                location = 4109
+                division_template = "Hoplitas Helenos"
                 start_experience_factor = 0.1
                 start_equipment_factor = 0.7
         }

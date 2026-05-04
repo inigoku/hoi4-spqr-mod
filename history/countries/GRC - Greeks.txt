@@ -19,11 +19,30 @@ set_popularities = {
 }
 
 create_country_leader = {
-    name = "Solon"
+    name = "Margos of Keryneia"
     desc = "GRC_leader_desc"
     picture = "gfx/leaders/GRC/Portrait_Solon.tga"
     expire = "1965.1.1"
     ideology = despotism
-    traits = {
-    }
+}
+create_field_marshal = {
+    name = "GRC_fm_name"
+    picture = "gfx/leaders/GRC/Portrait_Solon.tga"
+    skill = 3
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+    traits = { infantry_officer }
+}
+
+create_corps_commander = {
+    name = "GRC_gen_name"
+    picture = "gfx/leaders/GRC/Portrait_Solon.tga"
+    skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+    traits = { infantry_officer }
 }

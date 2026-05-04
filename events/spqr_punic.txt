@@ -1,0 +1,180 @@
+add_namespace = spqr_punic
+
+country_event = {
+    id = spqr_punic.1
+    title = spqr_punic.1.t
+    desc = spqr_punic.1.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+
+    option = {
+        name = spqr_punic.1.a
+        add_war_support = 0.05
+        add_political_power = 40
+    }
+    option = {
+        name = spqr_punic.1.b
+        add_stability = 0.04
+        add_political_power = -20
+    }
+}
+
+country_event = {
+    id = spqr_punic.2
+    title = spqr_punic.2.t
+    desc = spqr_punic.2.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+
+    option = {
+        name = spqr_punic.2.a
+        add_war_support = 0.06
+        add_political_power = 35
+    }
+}
+
+country_event = {
+    id = spqr_punic.3
+    title = spqr_punic.3.t
+    desc = spqr_punic.3.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+
+    option = {
+        name = spqr_punic.3.a
+        add_war_support = 0.05
+        add_stability = 0.02
+    }
+}
+
+country_event = {
+    id = spqr_punic.4
+    title = spqr_punic.4.t
+    desc = spqr_punic.4.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+
+    option = {
+        name = spqr_punic.4.a
+        add_war_support = 0.05
+        add_stability = -0.01
+    }
+}
+
+country_event = {
+    id = spqr_punic.5
+    title = spqr_punic.5.t
+    desc = spqr_punic.5.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+
+    option = {
+        name = spqr_punic.5.a
+        add_stability = 0.06
+        add_political_power = 50
+    }
+}
+
+country_event = {
+    id = spqr_punic.6
+    title = spqr_punic.6.t
+    desc = spqr_punic.6.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+
+    option = {
+        name = spqr_punic.6.a
+        add_war_support = 0.08
+        add_stability = -0.02
+    }
+}
+
+country_event = {
+    id = spqr_punic.7
+    title = spqr_punic.7.t
+    desc = spqr_punic.7.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+
+    option = {
+        name = spqr_punic.7.a
+        add_war_support = 0.07
+        army_experience = 10
+    }
+}
+
+country_event = {
+    id = spqr_punic.8
+    title = spqr_punic.8.t
+    desc = spqr_punic.8.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+
+    option = {
+        name = spqr_punic.8.a
+        add_war_support = 0.04
+        add_political_power = 30
+    }
+}
+
+country_event = {
+    id = spqr_punic.9
+    title = spqr_punic.9.t
+    desc = spqr_punic.9.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+
+    option = {
+        name = spqr_punic.9.a
+        add_stability = 0.05
+    }
+    option = {
+        name = spqr_punic.9.b
+        add_war_support = 0.05
+    }
+}
+
+country_event = {
+    id = spqr_punic.10
+    title = spqr_punic.10.t
+    desc = spqr_punic.10.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+
+    option = {
+        name = spqr_punic.10.a
+        add_political_power = 50
+        add_stability = 0.03
+    }
+}
+
+country_event = {
+    id = spqr_punic.11
+    title = spqr_punic.11.t
+    desc = spqr_punic.11.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+
+    option = {
+        name = spqr_punic.11.a
+        add_stability = 0.04
+    }
+    option = {
+        name = spqr_punic.11.b
+        add_war_support = 0.04
+    }
+}
+
+country_event = {
+    id = spqr_punic.12
+    title = spqr_punic.12.t
+    desc = spqr_punic.12.d
+    picture = GFX_report_event_generic_read_write
+    is_triggered_only = yes
+
+    option = {
+        name = spqr_punic.12.a
+        add_stability = 0.03
+        add_political_power = 30
+    }
+}

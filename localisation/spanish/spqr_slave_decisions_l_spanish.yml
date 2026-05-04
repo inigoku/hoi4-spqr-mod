@@ -1,0 +1,21 @@
+﻿l_spanish:
+ spqr_slave_labor_category: "Sistema de Mano de Obra Cautiva"
+ spqr_slave_labor_category_desc: "Reserva actual de esclavos: [?ROOT.spqr_slave_labor_pool|0]\n\nLas victorias militares capturan mano de obra que puede reasignarse a talleres, astilleros y canteras."
+
+ spqr_slave_labor_workshop_drive: "Forzar Talleres Urbanos"
+ spqr_slave_labor_workshop_drive_desc: "Gastamos parte de la reserva de esclavos para aumentar temporalmente la produccion de talleres y arsenales."
+
+ spqr_slave_labor_dockyard_drive: "Reforzar Astilleros"
+ spqr_slave_labor_dockyard_drive_desc: "Movilizamos mano de obra cautiva hacia los astilleros para acelerar la construccion naval durante unos meses."
+
+ spqr_slave_labor_quarries: "Expandir Canteras y Minas"
+ spqr_slave_labor_quarries_desc: "Desviamos esclavos a canteras y explotaciones para elevar el flujo de recursos estrategicos."
+
+ spqr_slave_labor_workshop_burst: "Talleres Forzados"
+ spqr_slave_labor_workshop_burst_desc: "Los talleres civiles y militares operan con turnos forzados y mano de obra cautiva."
+
+ spqr_slave_labor_dockyard_burst: "Astilleros Forzados"
+ spqr_slave_labor_dockyard_burst_desc: "Los astilleros incrementan temporalmente su rendimiento mediante trabajo cautivo intensivo."
+
+ spqr_slave_labor_quarry_burst: "Canteras Explotadas"
+ spqr_slave_labor_quarry_burst_desc: "La explotacion intensiva de canteras y vetas aumenta temporalmente la disponibilidad de recursos."

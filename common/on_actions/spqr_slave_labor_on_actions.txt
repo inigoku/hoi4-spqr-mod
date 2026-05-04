@@ -1,0 +1,89 @@
+on_actions = {
+	# From is owner country according to vanilla on_action docs.
+	on_army_leader_won_combat = {
+		effect = {
+			FROM = {
+				if = {
+					limit = {
+						OR = {
+							tag = SPQ
+							tag = CRG
+							tag = KMT
+							tag = MCD
+							tag = SYC
+						}
+						has_war = yes
+					}
+
+					if = {
+						limit = {
+							tag = CRG
+							check_variable = { random < 0.45 }
+						}
+						add_to_variable = { spqr_slave_labor_pool = 1 }
+					}
+					else_if = {
+						limit = {
+							tag = SPQ
+							check_variable = { random < 0.40 }
+						}
+						add_to_variable = { spqr_slave_labor_pool = 1 }
+					}
+					else_if = {
+						limit = {
+							tag = KMT
+							check_variable = { random < 0.35 }
+						}
+						add_to_variable = { spqr_slave_labor_pool = 1 }
+					}
+					else_if = {
+						limit = {
+							tag = MCD
+							check_variable = { random < 0.28 }
+						}
+						add_to_variable = { spqr_slave_labor_pool = 1 }
+					}
+					else_if = {
+						limit = {
+							tag = SYC
+							check_variable = { random < 0.25 }
+						}
+						add_to_variable = { spqr_slave_labor_pool = 1 }
+					}
+
+					if = {
+						limit = { check_variable = { spqr_slave_labor_pool > 120 } }
+						set_variable = { spqr_slave_labor_pool = 120 }
+					}
+
+					remove_ideas = spqr_slave_labor_1
+					remove_ideas = spqr_slave_labor_2
+					remove_ideas = spqr_slave_labor_3
+					remove_ideas = spqr_slave_labor_4
+					remove_ideas = spqr_slave_labor_5
+
+					if = {
+						limit = { check_variable = { spqr_slave_labor_pool > 99 } }
+						add_ideas = spqr_slave_labor_5
+					}
+					else_if = {
+						limit = { check_variable = { spqr_slave_labor_pool > 69 } }
+						add_ideas = spqr_slave_labor_4
+					}
+					else_if = {
+						limit = { check_variable = { spqr_slave_labor_pool > 44 } }
+						add_ideas = spqr_slave_labor_3
+					}
+					else_if = {
+						limit = { check_variable = { spqr_slave_labor_pool > 24 } }
+						add_ideas = spqr_slave_labor_2
+					}
+					else_if = {
+						limit = { check_variable = { spqr_slave_labor_pool > 9 } }
+						add_ideas = spqr_slave_labor_1
+					}
+				}
+			}
+		}
+	}
+}

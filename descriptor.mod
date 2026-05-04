@@ -1,7 +1,7 @@
 version="0.1"
 tags={
-	"Historical"
+    "Historical"
 }
 name="SPQR: El Amanecer de Roma"
-supported_version="1.18.0.0"
+supported_version="1.18.*"
 replace_path="common/bookmarks"

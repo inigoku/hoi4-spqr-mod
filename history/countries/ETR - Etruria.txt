@@ -1,4 +1,4 @@
-capital = 162
+capital = 460
 oob = "ETR_1936"
 
 set_research_slots = 1
@@ -19,11 +19,30 @@ set_popularities = {
 }
 
 create_country_leader = {
-    name = "Lars Porsena"
+    name = "Zelalsen"
     desc = "ETR_leader_desc"
-    picture = "gfx/leaders/ETR/Portrait_Porsena.tga"
+    picture = "gfx/leaders/ETR/Portrait_Zelalsen.tga"
     expire = "1965.1.1"
     ideology = despotism
-    traits = {
-    }
+}
+create_field_marshal = {
+    name = "ETR_fm_name"
+    picture = "gfx/leaders/ETR/Portrait_Zelalsen.tga"
+    skill = 3
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+    traits = { infantry_officer }
+}
+
+create_corps_commander = {
+    name = "ETR_gen_name"
+    picture = "gfx/leaders/ETR/Portrait_Zelalsen.tga"
+    skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+    traits = { infantry_officer }
 }

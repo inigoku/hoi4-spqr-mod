@@ -1,0 +1,104 @@
+spqr_slave_labor_category = {
+
+	spqr_slave_labor_workshop_drive = {
+		icon = generic_construct_civ_factory
+		cost = 35
+		days_remove = 1
+		days_re_enable = 90
+
+		available = {
+			check_variable = { spqr_slave_labor_pool > 14 }
+		}
+
+		visible = {
+			OR = {
+				tag = SPQ
+				tag = CRG
+				tag = KMT
+				tag = MCD
+				tag = SYC
+			}
+		}
+
+		complete_effect = {
+			add_to_variable = { spqr_slave_labor_pool = -15 }
+			add_timed_idea = {
+				idea = spqr_slave_labor_workshop_burst
+				days = 180
+			}
+			spqr_update_slave_labor_tier_effect = yes
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	spqr_slave_labor_dockyard_drive = {
+		icon = generic_construct_naval_dockyard
+		cost = 40
+		days_remove = 1
+		days_re_enable = 120
+
+		available = {
+			check_variable = { spqr_slave_labor_pool > 19 }
+		}
+
+		visible = {
+			OR = {
+				tag = SPQ
+				tag = CRG
+				tag = KMT
+				tag = MCD
+				tag = SYC
+			}
+		}
+
+		complete_effect = {
+			add_to_variable = { spqr_slave_labor_pool = -20 }
+			add_timed_idea = {
+				idea = spqr_slave_labor_dockyard_burst
+				days = 180
+			}
+			spqr_update_slave_labor_tier_effect = yes
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	spqr_slave_labor_quarries = {
+		icon = generic_resource_production
+		cost = 30
+		days_remove = 1
+		days_re_enable = 75
+
+		available = {
+			check_variable = { spqr_slave_labor_pool > 11 }
+		}
+
+		visible = {
+			OR = {
+				tag = SPQ
+				tag = CRG
+				tag = KMT
+				tag = MCD
+				tag = SYC
+			}
+		}
+
+		complete_effect = {
+			add_to_variable = { spqr_slave_labor_pool = -12 }
+			add_timed_idea = {
+				idea = spqr_slave_labor_quarry_burst
+				days = 120
+			}
+			spqr_update_slave_labor_tier_effect = yes
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

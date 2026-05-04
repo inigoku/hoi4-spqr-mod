@@ -1,17 +1,25 @@
 division_template = {
-        name = "Infanteria Fenicia"
+        name = "Infanteria Ibera"
         regiments = {
                 infantry = { x = 0 y = 0 }
                 infantry = { x = 0 y = 1 }
+                infantry = { x = 1 y = 0 }
         }
 }
 
 units = {
         division = {
-                name = "Cohors Fenicia"
-                location = 792
-                division_template = "Infanteria Fenicia"
+                name = "Guardia Mauritana"
+                location = 10013
+                division_template = "Infanteria Ibera"
                 start_experience_factor = 0.1
                 start_equipment_factor = 0.7
+        }
+        division = {
+                name = "Cohors del Rif"
+                location = 7069
+                division_template = "Infanteria Ibera"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.65
         }
 }

@@ -24,6 +24,25 @@ create_country_leader = {
     picture = "gfx/leaders/SMN/Portrait_Egnatius.tga"
     expire = "1965.1.1"
     ideology = despotism
-    traits = {
-    }
+}
+create_field_marshal = {
+    name = "SMN_fm_name"
+    picture = "gfx/leaders/SMN/Portrait_Egnatius.tga"
+    skill = 3
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+    traits = { infantry_officer }
+}
+
+create_corps_commander = {
+    name = "SMN_gen_name"
+    picture = "gfx/leaders/SMN/Portrait_Egnatius.tga"
+    skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+    traits = { infantry_officer }
 }

@@ -1,0 +1,81 @@
+ideas = {
+	country = {
+		spqr_slave_labor_1 = {
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				country_resource_tungsten = 2
+				industrial_capacity_factory = 0.02
+				production_factory_efficiency_gain_factor = 0.01
+			}
+		}
+
+		spqr_slave_labor_2 = {
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				country_resource_tungsten = 4
+				industrial_capacity_factory = 0.04
+				production_factory_efficiency_gain_factor = 0.02
+			}
+		}
+
+		spqr_slave_labor_3 = {
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				country_resource_tungsten = 7
+				industrial_capacity_factory = 0.06
+				production_factory_efficiency_gain_factor = 0.03
+			}
+		}
+
+		spqr_slave_labor_4 = {
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				country_resource_tungsten = 10
+				industrial_capacity_factory = 0.08
+				production_factory_efficiency_gain_factor = 0.04
+			}
+		}
+
+		spqr_slave_labor_5 = {
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				country_resource_tungsten = 14
+				industrial_capacity_factory = 0.10
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_max_efficiency_factor = 0.03
+			}
+		}
+
+		spqr_slave_labor_workshop_burst = {
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.08
+				production_factory_efficiency_gain_factor = 0.04
+			}
+		}
+
+		spqr_slave_labor_dockyard_burst = {
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_dockyard = 0.12
+			}
+		}
+
+		spqr_slave_labor_quarry_burst = {
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				country_resource_tungsten = 6
+				country_resource_steel = 4
+				industrial_capacity_factory = 0.03
+			}
+		}
+	}
+}

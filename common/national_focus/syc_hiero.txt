@@ -1,0 +1,110 @@
+focus_tree = {
+    id = SYC_syracuse_focus_tree
+
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = SYC
+        }
+    }
+
+    default = no
+
+    focus = {
+        id = SYC_tirania_de_hiero
+        icon = GFX_goal_continuous_def_against_influence
+        x = 8
+        y = 0
+        cost = 10
+        completion_reward = {
+            add_political_power = 80
+            add_stability = 0.05
+        }
+    }
+
+    focus = {
+        id = SYC_fortificar_siracusa
+        icon = GFX_goal_continuous_def_against_influence
+        prerequisite = { focus = SYC_tirania_de_hiero }
+        x = 6
+        y = 1
+        cost = 10
+        completion_reward = {
+            add_stability = 0.04
+            add_war_support = 0.03
+        }
+    }
+
+    focus = {
+        id = SYC_flota_siciliana
+        icon = GFX_goal_continuous_def_against_influence
+        prerequisite = { focus = SYC_tirania_de_hiero }
+        x = 8
+        y = 1
+        cost = 10
+        completion_reward = {
+            navy_experience = 14
+            add_war_support = 0.03
+        }
+    }
+
+    focus = {
+        id = SYC_astilleros_de_ortigia
+        icon = GFX_goal_generic_construct_naval_dockyard
+        prerequisite = { focus = SYC_flota_siciliana }
+        x = 9
+        y = 2
+        cost = 10
+        completion_reward = {
+            navy_experience = 10
+            add_political_power = 30
+        }
+    }
+
+    focus = {
+        id = SYC_liga_de_capitanes
+        icon = GFX_goal_continuous_naval_production
+        prerequisite = {
+            focus = SYC_astilleros_de_ortigia
+            focus = SYC_equilibrio_entre_gigantes
+        }
+        x = 9
+        y = 3
+        cost = 10
+        completion_reward = {
+            navy_experience = 20
+            add_war_support = 0.02
+            add_stability = 0.01
+        }
+    }
+
+    focus = {
+        id = SYC_equilibrio_entre_gigantes
+        icon = GFX_goal_continuous_def_against_influence
+        prerequisite = {
+            focus = SYC_fortificar_siracusa
+            focus = SYC_flota_siciliana
+        }
+        x = 7
+        y = 2
+        cost = 10
+        completion_reward = {
+            add_political_power = 60
+            country_event = { id = spqr_punic.11 days = 1 }
+        }
+    }
+
+    focus = {
+        id = SYC_comercio_mediterraneo
+        icon = GFX_goal_continuous_def_against_influence
+        prerequisite = { focus = SYC_equilibrio_entre_gigantes }
+        x = 7
+        y = 3
+        cost = 10
+        completion_reward = {
+            add_stability = 0.05
+            add_political_power = 50
+        }
+    }
+}
