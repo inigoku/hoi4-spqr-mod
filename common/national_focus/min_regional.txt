@@ -19,18 +19,18 @@ focus_tree = {
             add = 10
             tag = ILL
         }
-        modifier = {
-            add = 10
-            tag = SBN
-        }
+        # modifier = {
+        #     add = 10
+        #     tag = SBN
+        # }
         modifier = {
             add = 10
             tag = SMN
         }
-        modifier = {
-            add = 10
-            tag = ETR
-        }
+        # modifier = {
+        #     add = 10
+        #     tag = ETR
+        # }
         modifier = {
             add = 10
             tag = PHN
@@ -43,13 +43,13 @@ focus_tree = {
             add = 10
             tag = GLN
         }
+        # modifier = {
+        #     add = 10
+        #     tag = LYD
+        # }
         modifier = {
             add = 10
-            tag = LYD
-        }
-        modifier = {
-            add = 10
-            tag = ASS
+            tag = SEL
         }
     }
 

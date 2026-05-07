@@ -6,9 +6,9 @@ state = {
         state_category = pastoral
 
         history = {
-                owner = SBN
-                controller = SBN
-                add_core_of = SBN
+                owner = WLD
+                controller = WLD
+                add_core_of = WLD
         }
 
         provinces = {

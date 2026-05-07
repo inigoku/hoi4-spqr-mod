@@ -463,6 +463,10 @@ technologies = {
 
 	paratroopers = {
 
+		allow = {
+			tag = SPQ
+		}
+
 		enable_subunits = {
 			paratrooper
 		}
@@ -746,6 +750,184 @@ technologies = {
 				factor = 3
 				tag = JAP
 			}
+		}
+	}
+
+	levy = {
+
+		enable_subunits = {
+			levy
+		}
+
+		on_research_complete_limit = {
+			NOT = {
+				has_template_containing_unit = levy
+			}
+		}
+		on_research_complete = {
+			hidden_effect = {
+				load_oob = "unlock_paratroopers"
+			}
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+
+		path = {
+			leads_to_tech = levy2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1936 }
+		}
+
+		categories = {
+			infantry_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	levy2 = {
+
+		levy = {
+			max_organisation = 3
+			soft_attack = 0.05
+		}
+		path = {
+			leads_to_tech = levy3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = 1 y = @1939 }
+		}
+
+		categories = {
+			infantry_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	levy3 = {
+
+		levy = {
+			max_organisation = 3
+			soft_attack = 0.05
+		}
+
+		research_cost = 2.0
+		start_year = 1943
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1943 }
+		}
+
+		categories = {
+			infantry_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	spqr_royal_guard = {
+
+		enable_subunits = {
+			royal_guard
+		}
+
+		on_research_complete_limit = {
+			NOT = {
+				has_template_containing_unit = royal_guard
+			}
+		}
+		on_research_complete = {
+			hidden_effect = {
+				load_oob = "unlock_paratroopers"
+			}
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+
+		path = {
+			leads_to_tech = spqr_royal_guard1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 1 y = @1936 }
+		}
+
+		categories = {
+			infantry_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	spqr_royal_guard1 = {
+
+		royal_guard = {
+			max_organisation = 3
+			suppression = 0.3
+		}
+		path = {
+			leads_to_tech = spqr_royal_guard2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1939 }
+		}
+
+		categories = {
+			infantry_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	spqr_royal_guard2 = {
+
+		royal_guard = {
+			max_organisation = 3
+			suppression = 0.3
+		}
+
+		research_cost = 2.0
+		start_year = 1942
+		folder = {
+			name = infantry_folder
+			position = { x = 3 y = @1943 }
+		}
+
+		categories = {
+			infantry_tech
+		}
+
+		ai_will_do = {
+			factor = 1
 		}
 	}
 
@@ -3127,5 +3309,272 @@ technologies = {
 		}
 	}
 	#End Pfot
+
+	##### ANCIENT UNITS #####
+	
+	war_elephant = {
+		enable_subunits = {
+			war_elephant
+		}
+
+		allow = {
+			tag = CRG
+		}
+
+		path = {
+			leads_to_tech = war_elephant1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = 1 }
+		}
+
+		categories = {
+			armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	war_elephant1 = {
+		war_elephant = {
+			soft_attack = 0.05
+			hard_attack = 0.1
+		}
+
+		allow = {
+			tag = CRG
+		}
+
+		path = {
+			leads_to_tech = war_elephant2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 6 y = 1 }
+		}
+
+		categories = {
+			armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	war_elephant2 = {
+		war_elephant = {
+			soft_attack = 0.05
+			hard_attack = 0.1
+			max_organisation = 3
+		}
+
+		allow = {
+			tag = CRG
+		}
+
+		research_cost = 1.5
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = 7 y = 1 }
+		}
+
+		categories = {
+			armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavy_chariot = {
+		enable_subunits = {
+			heavy_chariot
+		}
+
+		allow = {
+			tag = SEL
+		}
+
+		path = {
+			leads_to_tech = heavy_chariot1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = 2 }
+		}
+
+		categories = {
+			armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavy_chariot1 = {
+		heavy_chariot = {
+			soft_attack = 0.1
+			hard_attack = 0.15
+		}
+
+		allow = {
+			tag = SEL
+		}
+
+		path = {
+			leads_to_tech = heavy_chariot2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 6 y = 2 }
+		}
+
+		categories = {
+			armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavy_chariot2 = {
+		heavy_chariot = {
+			soft_attack = 0.1
+			hard_attack = 0.15
+			max_organisation = 3
+		}
+
+		allow = {
+			tag = SEL
+		}
+
+		research_cost = 1.5
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = 7 y = 2 }
+		}
+
+		categories = {
+			armor
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	roman_legion = {
+		enable_subunits = {
+			roman_legion
+		}
+
+		allow = {
+			tag = SPQ
+		}
+
+		path = {
+			leads_to_tech = roman_legion1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = 0 }
+		}
+
+		categories = {
+			infantry_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	roman_legion1 = {
+		roman_legion = {
+			soft_attack = 0.05
+			max_organisation = 3
+		}
+
+		allow = {
+			tag = SPQ
+		}
+
+		path = {
+			leads_to_tech = roman_legion2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 6 y = 0 }
+		}
+
+		categories = {
+			infantry_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	roman_legion2 = {
+		roman_legion = {
+			soft_attack = 0.05
+			soft_attack = 0.05
+			max_organisation = 3
+			breakthrough = 0.05
+		}
+
+		allow = {
+			tag = SPQ
+		}
+
+		research_cost = 1.5
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = 7 y = 0 }
+		}
+
+		categories = {
+			infantry_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 }

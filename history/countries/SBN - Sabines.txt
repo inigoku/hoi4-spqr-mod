@@ -1,6 +1,6 @@
 capital = 185 # Epirus
 
-oob = "SBN_1936" # Tropas iniciales de los Sabines
+#oob = "SBN_1936" # Removed - Sabines retired # Tropas iniciales de los Sabines
 
 set_research_slots = 1
 

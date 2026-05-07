@@ -10,7 +10,7 @@ state = {
                 }
 
         history = {
-                owner = ETR
+                owner = WLD
                 controller = ETR
                 add_core_of = ETR
         }

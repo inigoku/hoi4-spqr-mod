@@ -1,5 +1,5 @@
 capital = 510
-oob = "ASS_1936"
+#oob = "ASS_1936" # Moved to SEL (Seleucida)
 
 set_research_slots = 2
 

@@ -6,7 +6,7 @@ state = {
         state_category = town
 
         history = {
-                owner = ASS
+                owner = SEL
                 controller = ASS
                 buildings = {
                         infrastructure = 2

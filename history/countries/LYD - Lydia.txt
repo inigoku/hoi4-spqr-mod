@@ -1,5 +1,5 @@
 capital = 339
-oob = "LYD_1936"
+#oob = "LYD_1936" # Removed - Lydia merged to SEL
 
 set_research_slots = 2
 

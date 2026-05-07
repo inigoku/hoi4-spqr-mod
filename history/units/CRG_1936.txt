@@ -8,6 +8,19 @@ division_template = {
         }
 }
 
+division_template = {
+        name = "Elefantes Cartagineses"
+        regiments = {
+                war_elephant = { x = 0 y = 0 }
+                war_elephant = { x = 0 y = 1 }
+                infantry = { x = 1 y = 0 }
+                infantry = { x = 1 y = 1 }
+        }
+        support = {
+                artillery = { x = 0 y = 0 }
+        }
+}
+
 units = {
         division = {
                 name = "Bandera Cartaginesa"
@@ -35,6 +48,13 @@ units = {
                 location = 11969
                 division_template = "Infanteria Punica"
                 start_experience_factor = 0.25
+                start_equipment_factor = 0.75
+        }
+        division = {
+                name = "Legión de Elefantes"
+                location = 11969
+                division_template = "Elefantes Cartagineses"
+                start_experience_factor = 0.2
                 start_equipment_factor = 0.75
         }
 }
