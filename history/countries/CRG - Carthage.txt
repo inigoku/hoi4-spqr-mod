@@ -27,7 +27,7 @@ create_country_leader = {
 }
 create_field_marshal = {
     name = "CRG_fm_name"
-    picture = "gfx/leaders/CRG/Portrait_Hanno.tga"
+    picture = "gfx/leaders/CRG/Portrait_Hannibal.tga"
     skill = 3
     attack_skill = 3
     defense_skill = 3
@@ -38,7 +38,7 @@ create_field_marshal = {
 
 create_corps_commander = {
     name = "CRG_gen_name"
-    picture = "gfx/leaders/CRG/Portrait_Hanno.tga"
+    picture = "gfx/leaders/CRG/Portrait_Hasdrubal.tga"
     skill = 2
     attack_skill = 2
     defense_skill = 2
