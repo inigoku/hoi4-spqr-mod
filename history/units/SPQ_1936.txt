@@ -16,30 +16,51 @@ division_template = {
 units = {
 	division = {
 		name = "Legio I"
-		location = 9904 # Provincia de Roma
+		location = 9904 # Roma
 		division_template = "Legio Romana"
 		start_experience_factor = 0.25
 		start_equipment_factor = 0.8
 	}
-    division = {
+	division = {
 		name = "Legio II"
-		location = 9904
+		location = 9904 # Roma
 		division_template = "Legio Romana"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 	}
 	division = {
 		name = "Legio III"
-		location = 9904
+		location = 9904 # Roma
 		division_template = "Legio Romana"
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.75
 	}
 	division = {
 		name = "Legio IV"
-		location = 9904
+		location = 9904 # Roma
 		division_template = "Legio Romana"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Legio V"
+		location = 955 # Campania
+		division_template = "Legio Romana"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Legio VI"
+		location = 9907 # Etruria
+		division_template = "Legio Romana"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Ala Italica"
+		location = 925 # Adriático
+		division_template = "Legio Romana"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
 	}
 }

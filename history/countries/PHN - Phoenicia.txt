@@ -27,7 +27,7 @@ create_country_leader = {
 }
 create_field_marshal = {
     name = "PHN_fm_name"
-    picture = "gfx/leaders/PHN/Portrait_Baga.tga"
+    picture = "Portrait_Bocchus.tga"
     skill = 3
     attack_skill = 3
     defense_skill = 3
@@ -38,11 +38,18 @@ create_field_marshal = {
 
 create_corps_commander = {
     name = "PHN_gen_name"
-    picture = "gfx/leaders/PHN/Portrait_Baga.tga"
+    picture = "Portrait_Bogud.tga"
     skill = 2
     attack_skill = 2
     defense_skill = 2
     planning_skill = 2
     logistics_skill = 2
     traits = { infantry_officer }
+}
+
+set_stability = 0.55
+set_war_support = 0.40
+add_ideas = {
+    export_focus
+    limited_conscription
 }

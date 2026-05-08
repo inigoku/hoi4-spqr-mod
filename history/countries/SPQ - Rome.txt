@@ -25,13 +25,24 @@ set_popularities = {
 create_country_leader = {
     name = "Appius Claudius Caudex"
     desc = "SPQ_romulo_desc"
-    picture = "gfx/leaders/SPQ/Portrait_Romulo.tga"
+    picture = "gfx/leaders/SPQ/Portrait_Appius_Claudius.tga"
     expire = "1965.1.1"
     ideology = despotism
 }
 create_field_marshal = {
+    name = "Iulius Caesar"
+    picture = "Portrait_Iulius_Caesar.tga"
+    skill = 5
+    attack_skill = 5
+    defense_skill = 4
+    planning_skill = 5
+    logistics_skill = 4
+    traits = { brilliant_strategist flexible_strategist infantry_officer }
+}
+
+create_field_marshal = {
     name = "SPQ_fm_name"
-    picture = "gfx/leaders/SPQ/Portrait_Romulo.tga"
+    picture = "Portrait_Scipio.tga"
     skill = 3
     attack_skill = 3
     defense_skill = 3
@@ -42,7 +53,7 @@ create_field_marshal = {
 
 create_corps_commander = {
     name = "SPQ_gen_name"
-    picture = "gfx/leaders/SPQ/Portrait_Romulo.tga"
+    picture = "Portrait_Fabius.tga"
     skill = 2
     attack_skill = 2
     defense_skill = 2
@@ -50,3 +61,12 @@ create_corps_commander = {
     logistics_skill = 2
     traits = { infantry_officer }
 }
+
+set_stability = 0.70
+set_war_support = 0.60
+add_ideas = {
+    export_focus
+    extensive_conscription
+}
+create_faction = "Roman Alliance"
+add_to_faction = SYC

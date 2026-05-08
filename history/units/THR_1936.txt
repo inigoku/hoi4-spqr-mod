@@ -10,16 +10,30 @@ division_template = {
 units = {
         division = {
                 name = "Cohors Tracia"
-                location = 11905
+                location = 11905 # Tracia
                 division_template = "Infanteria Tracia"
                 start_experience_factor = 0.1
                 start_equipment_factor = 0.7
         }
         division = {
                 name = "Guardia del Hebro"
-                location = 11905
+                location = 11905 # Tracia
                 division_template = "Infanteria Tracia"
                 start_experience_factor = 0.1
                 start_equipment_factor = 0.7
+        }
+        division = {
+                name = "Cohors de Edirne"
+                location = 849 # Edirne
+                division_template = "Infanteria Tracia"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.65
+        }
+        division = {
+                name = "Caballería Tracia"
+                location = 9791 # Tracia oriental
+                division_template = "Infanteria Tracia"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.65
         }
 }

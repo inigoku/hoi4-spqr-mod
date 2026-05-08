@@ -13,6 +13,13 @@ state = {
                                 owner = SMN
                                 controller = SMN
                 victory_points = { 11837 10 }
+                                buildings = {
+                                        infrastructure = 2
+                                        11837 = {
+                                                bunker = 1
+                                                railway = 1
+                                        }
+                                }
                                 add_core_of = SMN
                                 add_core_of = SPQ
         }

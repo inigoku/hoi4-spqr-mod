@@ -7,8 +7,11 @@ state = {
 
         history = {
                 owner = SEL
-                controller = ASS
-                add_core_of = ASS
+                controller = SEL
+                buildings = {
+                        infrastructure = 1
+                }
+                add_core_of = SEL
         }
 
         provinces = {

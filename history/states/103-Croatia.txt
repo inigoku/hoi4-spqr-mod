@@ -12,6 +12,13 @@ state = {
         history = {
                 owner = ILL
                 victory_points = { 6889 10 }
+                buildings = {
+                        infrastructure = 2
+                        6889 = {
+                                bunker = 1
+                                railway = 1
+                        }
+                }
                 add_core_of = ILL
         }
 

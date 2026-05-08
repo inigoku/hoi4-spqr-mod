@@ -1,5 +1,5 @@
 division_template = {
-        name = "Infanteria Asiria"
+        name = "Falange Seléucida"
         regiments = {
                 infantry = { x = 0 y = 0 }
                 infantry = { x = 0 y = 1 }
@@ -9,7 +9,7 @@ division_template = {
 }
 
 division_template = {
-        name = "Carros_de_Guerra_Asirios"
+        name = "Carros de Guerra Seléucidas"
         regiments = {
                 heavy_chariot = { x = 0 y = 0 }
                 heavy_chariot = { x = 0 y = 1 }
@@ -23,38 +23,45 @@ division_template = {
 
 units = {
         division = {
-                name = "Cohors Asiria"
-                location = 10515
-                division_template = "Infanteria Asiria"
+                name = "Falange Argiraspida"
+                location = 10515 # Seleucia del Tigris
+                division_template = "Falange Seléucida"
+                start_experience_factor = 0.25
+                start_equipment_factor = 0.8
+        }
+        division = {
+                name = "Guardia de Antioquía"
+                location = 4550 # Siria
+                division_template = "Falange Seléucida"
+                start_experience_factor = 0.2
+                start_equipment_factor = 0.75
+        }
+        division = {
+                name = "Guardia de Sardes"
+                location = 4112 # Lidia/Sardes
+                division_template = "Falange Seléucida"
                 start_experience_factor = 0.15
                 start_equipment_factor = 0.7
         }
         division = {
-                name = "Cohors de Siria"
-                location = 4550
-                division_template = "Infanteria Asiria"
-                start_experience_factor = 0.1
-                start_equipment_factor = 0.7
-        }
-        division = {
-                name = "Cohors de Anatolia"
-                location = 7671
-                division_template = "Infanteria Asiria"
-                start_experience_factor = 0.1
-                start_equipment_factor = 0.65
-        }
-        division = {
                 name = "Cohors de Mesopotamia"
-                location = 10515
-                division_template = "Infanteria Asiria"
-                start_experience_factor = 0.1
+                location = 8238 # Mesopotamia
+                division_template = "Falange Seléucida"
+                start_experience_factor = 0.15
                 start_equipment_factor = 0.7
         }
         division = {
-                name = "Legión de Carros de Guerra"
-                location = 10515
-                division_template = "Carros_de_Guerra_Asirios"
+                name = "Carros de Guerra del Rey"
+                location = 10515 # Seleucia del Tigris
+                division_template = "Carros de Guerra Seléucidas"
                 start_experience_factor = 0.2
                 start_equipment_factor = 0.75
+        }
+        division = {
+                name = "Guardia de Anatolia"
+                location = 7671 # Anatolia
+                division_template = "Falange Seléucida"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.65
         }
 }

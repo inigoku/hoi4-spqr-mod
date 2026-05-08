@@ -11,21 +11,35 @@ division_template = {
 units = {
         division = {
                 name = "Cohorte Ibera"
-                location = 3938
+                location = 3938 # Meseta ibérica
                 division_template = "Infanteria Ibera"
                 start_experience_factor = 0.1
                 start_equipment_factor = 0.7
         }
         division = {
+                name = "Caballería Ibera"
+                location = 3938 # Meseta ibérica
+                division_template = "Infanteria Ibera"
+                start_experience_factor = 0.15
+                start_equipment_factor = 0.7
+        }
+        division = {
                 name = "Cohorte de Levante"
-                location = 9889
+                location = 9889 # Levante
                 division_template = "Infanteria Ibera"
                 start_experience_factor = 0.1
                 start_equipment_factor = 0.7
         }
         division = {
                 name = "Cohorte del Norte"
-                location = 9703
+                location = 9703 # norte de Iberia
+                division_template = "Infanteria Ibera"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.65
+        }
+        division = {
+                name = "Cohorte de Cataluña"
+                location = 854 # Cataluña
                 division_template = "Infanteria Ibera"
                 start_experience_factor = 0.1
                 start_equipment_factor = 0.65

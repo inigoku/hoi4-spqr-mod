@@ -8,20 +8,12 @@ bookmarks = {
         default = yes
 
         SPQ = { history = "SPQ_BOOKMARK_DESC" ideology = neutrality }
-        SBN = { history = "SBN_BOOKMARK_DESC" ideology = neutrality }
+        CRG = { history = "CRG_BOOKMARK_DESC" ideology = neutrality }
+        MCD = { history = "MCD_BOOKMARK_DESC" ideology = neutrality }
+        KMT = { history = "KMT_BOOKMARK_DESC" ideology = neutrality }
+        SEL = { history = "SEL_BOOKMARK_DESC" ideology = neutrality }
         SYC = { history = "SYC_BOOKMARK_DESC" ideology = neutrality }
         GRC = { history = "GRC_BOOKMARK_DESC" ideology = neutrality }
         LAC = { history = "LAC_BOOKMARK_DESC" ideology = neutrality }
-        MCD = { history = "MCD_BOOKMARK_DESC" ideology = neutrality }
-        CRG = { history = "CRG_BOOKMARK_DESC" ideology = neutrality }
-        ETR = { history = "ETR_BOOKMARK_DESC" ideology = neutrality }
-        PHN = { history = "PHN_BOOKMARK_DESC" ideology = neutrality }
-        KMT = { history = "KMT_BOOKMARK_DESC" ideology = neutrality }
-        ASS = { history = "ASS_BOOKMARK_DESC" ideology = neutrality }
-        IBR = { history = "IBR_BOOKMARK_DESC" ideology = neutrality }
-        GLN = { history = "GLN_BOOKMARK_DESC" ideology = neutrality }
-        ILL = { history = "ILL_BOOKMARK_DESC" ideology = neutrality }
-        THR = { history = "THR_BOOKMARK_DESC" ideology = neutrality }
-        LYD = { history = "LYD_BOOKMARK_DESC" ideology = neutrality }
     }
 }

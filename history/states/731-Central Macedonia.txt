@@ -5,9 +5,19 @@ state = {
 
         state_category = town
 
+        resources = {
+                aluminum = 2
+        }
+
         history = {
                 owner = MCD
                 controller = MCD
+                buildings = {
+                        895 = {
+                                bunker = 1
+                                railway = 1
+                        }
+                }
                 add_core_of = MCD
         }
 

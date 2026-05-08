@@ -21,13 +21,13 @@ set_popularities = {
 create_country_leader = {
     name = "Pleuratus II"
     desc = "ILL_leader_desc"
-    picture = "gfx/leaders/ILL/Portrait_Bardylis.tga"
+    picture = "gfx/leaders/ILL/Portrait_Pleuratus.tga"
     expire = "1965.1.1"
     ideology = despotism
 }
 create_field_marshal = {
     name = "ILL_fm_name"
-    picture = "gfx/leaders/ILL/Portrait_Bardylis.tga"
+    picture = "Portrait_Agron.tga"
     skill = 3
     attack_skill = 3
     defense_skill = 3
@@ -38,11 +38,18 @@ create_field_marshal = {
 
 create_corps_commander = {
     name = "ILL_gen_name"
-    picture = "gfx/leaders/ILL/Portrait_Bardylis.tga"
+    picture = "Portrait_Scerdilaidas.tga"
     skill = 2
     attack_skill = 2
     defense_skill = 2
     planning_skill = 2
     logistics_skill = 2
     traits = { infantry_officer }
+}
+
+set_stability = 0.55
+set_war_support = 0.60
+add_ideas = {
+    limited_exports
+    limited_conscription
 }

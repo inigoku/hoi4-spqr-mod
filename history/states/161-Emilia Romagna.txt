@@ -8,6 +8,13 @@ state = {
         history = {
                                 owner = SPQ
                                 controller = SPQ
+                                buildings = {
+                                        infrastructure = 2
+                                        industrial_complex = 1
+                                        782 = {
+                                                railway = 1
+                                        }
+                                }
                                 add_core_of = SPQ
         }
 

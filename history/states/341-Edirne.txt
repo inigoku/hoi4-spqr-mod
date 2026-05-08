@@ -8,6 +8,12 @@ state = {
         history = {
                 owner = THR
                 controller = THR
+                buildings = {
+                        849 = {
+                                bunker = 1
+                                railway = 1
+                        }
+                }
                 add_core_of = THR
         }
 

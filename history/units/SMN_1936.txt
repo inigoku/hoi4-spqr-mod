@@ -1,5 +1,5 @@
 division_template = {
-        name = "Infanteria Ibera"
+        name = "Centuria Samnita"
         regiments = {
                 infantry = { x = 0 y = 0 }
                 infantry = { x = 0 y = 1 }
@@ -10,15 +10,22 @@ division_template = {
 units = {
         division = {
                 name = "Cohors Samnita"
-                location = 11837
-                division_template = "Infanteria Ibera"
+                location = 11837 # Samnio
+                division_template = "Centuria Samnita"
                 start_experience_factor = 0.1
                 start_equipment_factor = 0.7
         }
         division = {
                 name = "Guardia del Sannio"
-                location = 11837
-                division_template = "Infanteria Ibera"
+                location = 11837 # Samnio
+                division_template = "Centuria Samnita"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.65
+        }
+        division = {
+                name = "Cohors Samnita II"
+                location = 883 # Apulia
+                division_template = "Centuria Samnita"
                 start_experience_factor = 0.1
                 start_equipment_factor = 0.65
         }

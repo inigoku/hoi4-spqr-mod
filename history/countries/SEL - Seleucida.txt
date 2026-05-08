@@ -20,14 +20,14 @@ set_popularities = {
 
 create_country_leader = {
     name = "Antiochus II Theos"
-    desc = "ASS_leader_desc"
-    picture = "gfx/leaders/ASS/Portrait_Ashurbanipal.tga"
+    desc = "SEL_leader_desc"
+    picture = "gfx/leaders/SEL/Portrait_Antiochus.tga"
     expire = "1965.1.1"
     ideology = despotism
 }
 create_field_marshal = {
-    name = "ASS_fm_name"
-    picture = "gfx/leaders/ASS/Portrait_Ashurbanipal.tga"
+    name = "SEL_fm_name"
+    picture = "Portrait_Zeuxis.tga"
     skill = 3
     attack_skill = 3
     defense_skill = 3
@@ -37,12 +37,19 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-    name = "ASS_gen_name"
-    picture = "gfx/leaders/ASS/Portrait_Ashurbanipal.tga"
+    name = "SEL_gen_name"
+    picture = "Portrait_Molon.tga"
     skill = 2
     attack_skill = 2
     defense_skill = 2
     planning_skill = 2
     logistics_skill = 2
     traits = { infantry_officer }
+}
+
+set_stability = 0.55
+set_war_support = 0.50
+add_ideas = {
+    export_focus
+    limited_conscription
 }

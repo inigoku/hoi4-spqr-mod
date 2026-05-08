@@ -10,16 +10,30 @@ division_template = {
 units = {
         division = {
                 name = "Mora Espartana"
-                location = 7211
+                location = 7211 # Esparta
                 division_template = "Hoplitas Espartanos"
                 start_experience_factor = 0.2
                 start_equipment_factor = 0.8
         }
         division = {
                 name = "Mora de Laconia"
-                location = 7211
+                location = 7211 # Esparta
                 division_template = "Hoplitas Espartanos"
                 start_experience_factor = 0.15
                 start_equipment_factor = 0.75
+        }
+        division = {
+                name = "Krypteia"
+                location = 7096 # Peloponeso interior
+                division_template = "Hoplitas Espartanos"
+                start_experience_factor = 0.15
+                start_equipment_factor = 0.7
+        }
+        division = {
+                name = "Mora de Arcadia"
+                location = 4178 # Arcadia
+                division_template = "Hoplitas Espartanos"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.65
         }
 }

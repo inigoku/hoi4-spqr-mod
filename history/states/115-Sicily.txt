@@ -18,6 +18,8 @@ state = {
                         dockyard = 1
                         10074 = {
                                 naval_base = 2
+                                bunker = 2
+                                railway = 1
                         }
                 }
                 add_core_of = SYC

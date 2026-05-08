@@ -6,7 +6,6 @@
  paratrooper: "Especuladores"
  artillery: "Balistas"
  anti_tank: "Triarii y Falange"
- anti_air: "Arqueros y Honderos"
  light_armor: "Caballeria de Choque"
  heavy_armor: "Caballeria Pesada"
  medium_armor: "Caballeria Acorazada"
@@ -84,7 +83,6 @@
  cat_light_armor: "Caballeria de Choque"
  cat_heavy_armor: "Caballeria Pesada"
  cat_anti_tank: "Piqueros y Falanges"
- cat_anti_air: "Arqueros y Honderos"
 
  submarine: "Lembi"
  destroyer: "Liburna"

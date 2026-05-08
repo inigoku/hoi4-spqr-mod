@@ -11,21 +11,35 @@ division_template = {
 units = {
         division = {
                 name = "Pezhetairoi"
-                location = 3882
+                location = 3882 # Pella
                 division_template = "Falange Macedonica"
                 start_experience_factor = 0.2
                 start_equipment_factor = 0.8
         }
         division = {
                 name = "Hipaspistas"
-                location = 3882
+                location = 3882 # Pella
                 division_template = "Falange Macedonica"
                 start_experience_factor = 0.15
                 start_equipment_factor = 0.75
         }
         division = {
                 name = "Falange de Tesalia"
-                location = 3882
+                location = 3882 # Pella
+                division_template = "Falange Macedonica"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.7
+        }
+        division = {
+                name = "Caballería Hetairoi"
+                location = 895 # Macedonia Central
+                division_template = "Falange Macedonica"
+                start_experience_factor = 0.2
+                start_equipment_factor = 0.75
+        }
+        division = {
+                name = "Guardia de Anfípolis"
+                location = 966 # Macedonia Central
                 division_template = "Falange Macedonica"
                 start_experience_factor = 0.1
                 start_equipment_factor = 0.7

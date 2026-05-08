@@ -1,4 +1,4 @@
 graphical_culture = southern_european_gfx
 graphical_culture_2d = southern_european_2d
 
-color = { 200 180 100 }
+color = { 195 55 35 }

@@ -5,6 +5,10 @@ state = {
 
         state_category = town
 
+        resources = {
+                tungsten = 4
+        }
+
         history = {
                 owner = CRG
                 controller = CRG

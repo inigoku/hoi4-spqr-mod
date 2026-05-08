@@ -12,7 +12,13 @@ state = {
         history = {
                 owner = SEL
                 victory_points = { 10515 10 }
-                add_core_of = ASS
+                buildings = {
+                        10515 = {
+                                bunker = 2
+                                railway = 1
+                        }
+                }
+                add_core_of = SEL
         }
 
         provinces = {

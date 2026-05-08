@@ -21,13 +21,13 @@ set_popularities = {
 create_country_leader = {
     name = "Hiero II"
     desc = "SYC_leader_desc"
-    picture = "gfx/leaders/SYC/Portrait_Gelon.tga"
+    picture = "gfx/leaders/SYC/Portrait_Hiero.tga"
     expire = "1965.1.1"
     ideology = despotism
 }
 create_field_marshal = {
     name = "SYC_fm_name"
-    picture = "gfx/leaders/SYC/Portrait_Gelon.tga"
+    picture = "Portrait_Gelon.tga"
     skill = 3
     attack_skill = 3
     defense_skill = 3
@@ -38,11 +38,18 @@ create_field_marshal = {
 
 create_corps_commander = {
     name = "SYC_gen_name"
-    picture = "gfx/leaders/SYC/Portrait_Gelon.tga"
+    picture = "Portrait_Epicydes.tga"
     skill = 2
     attack_skill = 2
     defense_skill = 2
     planning_skill = 2
     logistics_skill = 2
     traits = { infantry_officer }
+}
+
+set_stability = 0.50
+set_war_support = 0.30
+add_ideas = {
+    free_trade
+    limited_conscription
 }

@@ -11,30 +11,44 @@ division_template = {
 units = {
         division = {
                 name = "Guardia del Nilo"
-                location = 7011
+                location = 7011 # Alejandría
                 division_template = "Infanteria Egipcia"
                 start_experience_factor = 0.2
                 start_equipment_factor = 0.7
         }
         division = {
+                name = "Falange Ptolemaica"
+                location = 4055 # delta del Nilo
+                division_template = "Infanteria Egipcia"
+                start_experience_factor = 0.2
+                start_equipment_factor = 0.75
+        }
+        division = {
                 name = "Guarnicion de Menfis"
-                location = 7011
+                location = 7011 # Alejandría/Menfis
                 division_template = "Infanteria Egipcia"
                 start_experience_factor = 0.15
                 start_equipment_factor = 0.75
         }
         division = {
+                name = "Guarnicion de Pelusio"
+                location = 7011 # Pelusio
+                division_template = "Infanteria Egipcia"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.7
+        }
+        division = {
                 name = "Cohors de Cirenaica"
-                location = 10123
+                location = 10123 # Cirenaica
                 division_template = "Infanteria Egipcia"
                 start_experience_factor = 0.1
                 start_equipment_factor = 0.65
         }
         division = {
-                name = "Guarnicion de Pelusio"
-                location = 7011
+                name = "Guardia de la Frontera"
+                location = 10061 # Marsa Matruh
                 division_template = "Infanteria Egipcia"
                 start_experience_factor = 0.1
-                start_equipment_factor = 0.7
+                start_equipment_factor = 0.65
         }
 }

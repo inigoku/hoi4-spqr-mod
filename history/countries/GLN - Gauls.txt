@@ -27,7 +27,7 @@ create_country_leader = {
 }
 create_field_marshal = {
     name = "GLN_fm_name"
-    picture = "gfx/leaders/GLN/Portrait_Aristarchos.tga"
+    picture = "Portrait_Euthymenes.tga"
     skill = 3
     attack_skill = 3
     defense_skill = 3
@@ -38,11 +38,18 @@ create_field_marshal = {
 
 create_corps_commander = {
     name = "GLN_gen_name"
-    picture = "gfx/leaders/GLN/Portrait_Aristarchos.tga"
+    picture = "Portrait_Protis.tga"
     skill = 2
     attack_skill = 2
     defense_skill = 2
     planning_skill = 2
     logistics_skill = 2
     traits = { infantry_officer }
+}
+
+set_stability = 0.55
+set_war_support = 0.65
+add_ideas = {
+    limited_exports
+    limited_conscription
 }

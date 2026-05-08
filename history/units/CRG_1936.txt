@@ -24,37 +24,51 @@ division_template = {
 units = {
         division = {
                 name = "Bandera Cartaginesa"
-                location = 11969
+                location = 11969 # Cartago
                 division_template = "Infanteria Punica"
                 start_experience_factor = 0.2
                 start_equipment_factor = 0.7
         }
         division = {
-                name = "Bandera de Cerdeña"
-                location = 9863
-                division_template = "Infanteria Punica"
-                start_experience_factor = 0.1
-                start_equipment_factor = 0.7
-        }
-        division = {
-                name = "Bandera de Iberia"
-                location = 3810
-                division_template = "Infanteria Punica"
-                start_experience_factor = 0.1
-                start_equipment_factor = 0.65
-        }
-        division = {
                 name = "Banda Sagrada"
-                location = 11969
+                location = 11969 # Cartago
                 division_template = "Infanteria Punica"
                 start_experience_factor = 0.25
                 start_equipment_factor = 0.75
         }
         division = {
                 name = "Legión de Elefantes"
-                location = 11969
+                location = 11969 # Cartago
                 division_template = "Elefantes Cartagineses"
                 start_experience_factor = 0.2
                 start_equipment_factor = 0.75
+        }
+        division = {
+                name = "Guardia de Útica"
+                location = 4061 # norte de Túnez
+                division_template = "Infanteria Punica"
+                start_experience_factor = 0.15
+                start_equipment_factor = 0.7
+        }
+        division = {
+                name = "Banda de Leptis"
+                location = 4163 # este de Túnez
+                division_template = "Infanteria Punica"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.65
+        }
+        division = {
+                name = "Bandera de Cerdeña"
+                location = 9863 # Cerdeña
+                division_template = "Infanteria Punica"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.7
+        }
+        division = {
+                name = "Bandera de Iberia"
+                location = 3810 # Hispania
+                division_template = "Infanteria Punica"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.65
         }
 }

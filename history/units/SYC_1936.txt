@@ -9,17 +9,31 @@ division_template = {
 
 units = {
         division = {
+                name = "Guardia de Ortigia"
+                location = 10074 # Siracusa
+                division_template = "Militia Siculana"
+                start_experience_factor = 0.2
+                start_equipment_factor = 0.75
+        }
+        division = {
                 name = "Cohors Siculana"
-                location = 10074
+                location = 10074 # Siracusa
                 division_template = "Militia Siculana"
                 start_experience_factor = 0.1
                 start_equipment_factor = 0.7
         }
         division = {
-                name = "Guardia de Ortigia"
-                location = 10074
+                name = "Guardia de Lilibeo"
+                location = 7147 # Sicilia occidental
                 division_template = "Militia Siculana"
-                start_experience_factor = 0.2
-                start_equipment_factor = 0.75
+                start_experience_factor = 0.15
+                start_equipment_factor = 0.7
+        }
+        division = {
+                name = "Falange Siciliana"
+                location = 4014 # interior de Sicilia
+                division_template = "Militia Siculana"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.65
         }
 }

@@ -21,13 +21,13 @@ set_popularities = {
 create_country_leader = {
     name = "Antigonus II Gonatas"
     desc = "MCD_leader_desc"
-    picture = "gfx/leaders/MCD/Portrait_Alexander.tga"
+    picture = "gfx/leaders/MCD/Portrait_Antigonus.tga"
     expire = "1965.1.1"
     ideology = despotism
 }
 create_field_marshal = {
     name = "MCD_fm_name"
-    picture = "gfx/leaders/MCD/Portrait_Alexander.tga"
+    picture = "Portrait_Demetrius.tga"
     skill = 3
     attack_skill = 3
     defense_skill = 3
@@ -38,7 +38,7 @@ create_field_marshal = {
 
 create_corps_commander = {
     name = "MCD_gen_name"
-    picture = "gfx/leaders/MCD/Portrait_Alexander.tga"
+    picture = "Portrait_Philippus.tga"
     skill = 2
     attack_skill = 2
     defense_skill = 2
@@ -46,3 +46,11 @@ create_corps_commander = {
     logistics_skill = 2
     traits = { infantry_officer }
 }
+
+set_stability = 0.60
+set_war_support = 0.55
+add_ideas = {
+    export_focus
+    limited_conscription
+}
+create_faction = "Macedonian Hegemony"

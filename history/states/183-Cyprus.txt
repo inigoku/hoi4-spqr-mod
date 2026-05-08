@@ -5,9 +5,20 @@ state = {
 
         state_category = rural
 
+        resources = {
+                chromium = 5
+        }
+
         history = {
                 owner = KMT
                 controller = KMT
+                buildings = {
+                        infrastructure = 2
+                        dockyard = 1
+                        7193 = {
+                                naval_base = 2
+                        }
+                }
                 add_core_of = KMT
         }
 

@@ -7,12 +7,15 @@ state = {
 
         history = {
                 owner = SEL
-                controller = ASS
+                controller = SEL
                 buildings = {
                         infrastructure = 2
                         arms_factory = 1
+                        7671 = {
+                                railway = 1
+                        }
                 }
-                add_core_of = ASS
+                add_core_of = SEL
         }
 
         provinces = {

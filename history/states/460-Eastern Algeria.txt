@@ -11,8 +11,6 @@ state = {
 
         history = {
                 owner = WLD
-                controller = ETR
-                add_core_of = ETR
         }
 
         provinces = {

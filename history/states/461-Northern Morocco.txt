@@ -12,6 +12,13 @@ state = {
         history = {
                 owner = PHN
                 controller = PHN
+                buildings = {
+                        infrastructure = 2
+                        10013 = {
+                                bunker = 1
+                                railway = 1
+                        }
+                }
                 add_core_of = PHN
         }
 

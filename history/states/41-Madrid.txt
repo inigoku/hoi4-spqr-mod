@@ -13,6 +13,13 @@ state = {
         history = {
                 owner = IBR
                 victory_points = { 3938 20 }
+                buildings = {
+                        infrastructure = 2
+                        3938 = {
+                                bunker = 1
+                                railway = 1
+                        }
+                }
                 add_core_of = IBR
         }
 

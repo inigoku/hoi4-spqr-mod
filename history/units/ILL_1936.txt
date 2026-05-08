@@ -10,16 +10,30 @@ division_template = {
 units = {
         division = {
                 name = "Cohors Iliria"
-                location = 6889
+                location = 6889 # capital iliria
                 division_template = "Infanteria Iliria"
                 start_experience_factor = 0.1
                 start_equipment_factor = 0.7
         }
         division = {
                 name = "Cohors Adriatica"
-                location = 6889
+                location = 6889 # capital iliria
                 division_template = "Infanteria Iliria"
                 start_experience_factor = 0.1
                 start_equipment_factor = 0.7
+        }
+        division = {
+                name = "Cohors de Dalmacia"
+                location = 984 # Dalmacia
+                division_template = "Infanteria Iliria"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.65
+        }
+        division = {
+                name = "Guardia del Adriático"
+                location = 3868 # costa iliria
+                division_template = "Infanteria Iliria"
+                start_experience_factor = 0.1
+                start_equipment_factor = 0.65
         }
 }

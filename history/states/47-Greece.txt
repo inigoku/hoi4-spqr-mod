@@ -7,11 +7,18 @@ state = {
 
                 resources = {
                         steel = 6
+                        tungsten = 4
                 }
 
         history = {
                 owner = GRC
                 victory_points = { 4109 20 }
+                buildings = {
+                        4109 = {
+                                bunker = 1
+                                railway = 1
+                        }
+                }
                 add_core_of = GRC
         }
 

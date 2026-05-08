@@ -27,7 +27,7 @@ create_country_leader = {
 }
 create_field_marshal = {
     name = "ASS_fm_name"
-    picture = "gfx/leaders/ASS/Portrait_Ashurbanipal.tga"
+    picture = "Portrait_Ashurbanipal.tga"
     skill = 3
     attack_skill = 3
     defense_skill = 3
@@ -38,7 +38,7 @@ create_field_marshal = {
 
 create_corps_commander = {
     name = "ASS_gen_name"
-    picture = "gfx/leaders/ASS/Portrait_Ashurbanipal.tga"
+    picture = "Portrait_Ashurbanipal.tga"
     skill = 2
     attack_skill = 2
     defense_skill = 2

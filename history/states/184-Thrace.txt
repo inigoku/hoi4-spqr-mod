@@ -8,11 +8,18 @@ state = {
                 resources = {
                         steel = 6
                         chromium = 2
+                        aluminum = 3
                 }
 
         history = {
                 owner = THR
                 victory_points = { 11905 10 }
+                buildings = {
+                        11905 = {
+                                bunker = 1
+                                railway = 1
+                        }
+                }
                 add_core_of = THR
         }
 

@@ -6,7 +6,6 @@
  paratrooper: "Speculatores"
  artillery: "Ballistae"
  anti_tank: "Triarii and Phalanx"
- anti_air: "Archers and Slingers"
  light_armor: "Shock Cavalry"
  heavy_armor: "Heavy Cavalry"
  medium_armor: "Armored Cavalry"
@@ -84,7 +83,6 @@
  cat_light_armor: "Shock Cavalry"
  cat_heavy_armor: "Heavy Cavalry"
  cat_anti_tank: "Pikemen and Phalanx"
- cat_anti_air: "Archers and Slingers"
 
  submarine: "Lembi"
  destroyer: "Liburna"
