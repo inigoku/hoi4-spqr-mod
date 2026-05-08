@@ -1,5 +1,12 @@
 spriteTypes = {
 
+	spriteType = {
+		name = "GFX_spqr_music_album_art"
+		texturefile = "gfx/interface/topbar/musicplayer/spqr_album_art.dds"
+		noOfFrames = 2
+	}
+
+
 	corneredTileSpriteType = {
 		name = "GFX_load_spqr_1"
 		texturefile = "gfx/loadingscreens/load_spqr_1.dds"
@@ -79,6 +86,176 @@ spriteTypes = {
 	corneredTileSpriteType = {
 		name = "GFX_load_spqr_5_small"
 		texturefile = "gfx/loadingscreens/load_spqr_5_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_load_spqr_6"
+		texturefile = "gfx/loadingscreens/load_spqr_6.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=1920 y=1440 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_spqr_6_small"
+		texturefile = "gfx/loadingscreens/load_spqr_6_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_load_spqr_7"
+		texturefile = "gfx/loadingscreens/load_spqr_7.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=1920 y=1440 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_spqr_7_small"
+		texturefile = "gfx/loadingscreens/load_spqr_7_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_load_spqr_8"
+		texturefile = "gfx/loadingscreens/load_spqr_8.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=1920 y=1440 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_spqr_8_small"
+		texturefile = "gfx/loadingscreens/load_spqr_8_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_load_spqr_9"
+		texturefile = "gfx/loadingscreens/load_spqr_9.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=1920 y=1440 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_spqr_9_small"
+		texturefile = "gfx/loadingscreens/load_spqr_9_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_load_spqr_10"
+		texturefile = "gfx/loadingscreens/load_spqr_10.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=1920 y=1440 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_spqr_10_small"
+		texturefile = "gfx/loadingscreens/load_spqr_10_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_load_spqr_11"
+		texturefile = "gfx/loadingscreens/load_spqr_11.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=1920 y=1440 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_spqr_11_small"
+		texturefile = "gfx/loadingscreens/load_spqr_11_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_load_spqr_12"
+		texturefile = "gfx/loadingscreens/load_spqr_12.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=1920 y=1440 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_spqr_12_small"
+		texturefile = "gfx/loadingscreens/load_spqr_12_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_load_spqr_13"
+		texturefile = "gfx/loadingscreens/load_spqr_13.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=1920 y=1440 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_spqr_13_small"
+		texturefile = "gfx/loadingscreens/load_spqr_13_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_load_spqr_14"
+		texturefile = "gfx/loadingscreens/load_spqr_14.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=1920 y=1440 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_spqr_14_small"
+		texturefile = "gfx/loadingscreens/load_spqr_14_small.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=192 y=144 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_load_spqr_15"
+		texturefile = "gfx/loadingscreens/load_spqr_15.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=1920 y=1440 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_load_spqr_15_small"
+		texturefile = "gfx/loadingscreens/load_spqr_15_small.dds"
 		borderSize = { x=0 y=0 }
 		size = { x=192 y=144 }
 		tilingCenter = no

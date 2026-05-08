@@ -1,0 +1,11 @@
+music = {
+	name = "spqr_adagio"
+	file = "adagio.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "spqr_alataque"
+	file = "alataque.ogg"
+	volume = 0.65
+}

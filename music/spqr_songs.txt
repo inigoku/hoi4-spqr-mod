@@ -1,0 +1,31 @@
+music_station = "spqr_music"
+
+# Peace — Adagio plays when not at war
+music = {
+	song = "spqr_adagio"
+	chance = {
+		modifier = {
+			factor = 1
+			has_war = no
+		}
+		modifier = {
+			factor = 0.2
+			has_war = yes
+		}
+	}
+}
+
+# War — Al Ataque plays when at war
+music = {
+	song = "spqr_alataque"
+	chance = {
+		modifier = {
+			factor = 0.2
+			has_war = no
+		}
+		modifier = {
+			factor = 1
+			has_war = yes
+		}
+	}
+}
