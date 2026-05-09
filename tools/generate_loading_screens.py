@@ -165,6 +165,10 @@ def call_imagen(prompt: str, api_key: str) -> bytes:
     )
     with urllib.request.urlopen(req, timeout=90) as resp:
         data = json.loads(resp.read())
+        
+    if "predictions" not in data:
+        raise ValueError(f"API response missing 'predictions' (likely safety blocked). Response: {json.dumps(data)}")
+        
     b64 = data["predictions"][0]["bytesBase64Encoded"]
     return base64.b64decode(b64)
 
