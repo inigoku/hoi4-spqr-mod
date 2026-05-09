@@ -29,3 +29,30 @@ music = {
 		}
 	}
 }
+
+music = {
+	song = "spqr_anoche_cuando_dormia"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+
+music = {
+	song = "spqr_la_muerte_no_tiene_whatsapp"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
+
+music = {
+	song = "spqr_la_nit"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}
