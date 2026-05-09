@@ -1,0 +1,5 @@
+music = {
+	name = "maintheme"
+	file = "adagio.ogg"
+	volume = 0.65
+}
